@@ -91,9 +91,11 @@
                 android:weightSum="20">
 
                 <LinearLayout
+                    android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -116,9 +118,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_4"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -152,9 +156,11 @@
                 android:weightSum="20">
 
                 <LinearLayout
+                    android:id="@+id/btn_5"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -177,9 +183,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_6"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -213,9 +221,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_7"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -239,9 +249,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_8"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -275,9 +287,11 @@
                 android:weightSum="20">
 
                 <LinearLayout
+                    android:id="@+id/btn_9"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -301,9 +315,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_10"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -338,9 +354,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_11"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -364,9 +382,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_12"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -401,9 +421,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_13"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -427,9 +449,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_14"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -463,9 +487,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_15"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -489,9 +515,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_16"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -525,9 +553,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_17"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -551,9 +581,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_18"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -588,9 +620,11 @@
 
 
                 <LinearLayout
+                    android:id="@+id/btn_19"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 

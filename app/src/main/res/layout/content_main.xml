@@ -408,7 +408,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/english_month_name" />
 
 
                     <TextView
@@ -434,7 +434,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/namta" />
 
 
                     <TextView
@@ -470,7 +470,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/foll" />
 
 
                     <TextView
@@ -496,7 +496,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/pakhir_name" />
 
 
                     <TextView
@@ -532,7 +532,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/sak" />
 
 
                     <TextView

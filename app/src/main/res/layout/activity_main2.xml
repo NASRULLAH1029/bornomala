@@ -25,7 +25,7 @@
 
                 <LinearLayout
 
-                    android:id="@+id/btn_1"
+                    android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -85,7 +85,8 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_3"
+                    android:id="@+id/btn_1"
+                    android:onClick="callClick"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"

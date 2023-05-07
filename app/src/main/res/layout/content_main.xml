@@ -558,7 +558,8 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/golpo" />
 
 
                     <TextView
@@ -594,7 +595,8 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/logo" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dak" />
 
 
                     <TextView

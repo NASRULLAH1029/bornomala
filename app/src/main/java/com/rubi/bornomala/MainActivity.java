@@ -59,12 +59,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         layout_1 = (LinearLayout) findViewById(R.id.btn_1);
+        layout_2 = (LinearLayout) findViewById(R.id.btn_2);
 
 
         layout_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, arbi_activity.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+
+        layout_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, bangla_Activity.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();

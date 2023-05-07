@@ -54,9 +54,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
 

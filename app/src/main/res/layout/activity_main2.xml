@@ -31,6 +31,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="Click"
                     android:orientation="vertical"
                     android:padding="10dp">
 
@@ -58,11 +59,12 @@
                     android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    android:layout_margin="10dp">
+                    android:onClick="call"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="100dp"
@@ -86,20 +88,20 @@
 
                 <LinearLayout
                     android:id="@+id/btn_1"
-                    android:onClick="callClick"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    android:layout_margin="10dp">
+                    android:onClick="callClick"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/alif"/>
+                        android:src="@drawable/alif" />
 
 
                     <TextView

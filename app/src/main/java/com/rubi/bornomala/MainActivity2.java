@@ -23,4 +23,15 @@ public class MainActivity2 extends AppCompatActivity {
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
         mediaPlayer.start();
     }
+
+    public void call(View view) {
+
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        mediaPlayer.start();
+    }
+
+    public void Click(View view) {
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        mediaPlayer.start();
+    }
 }

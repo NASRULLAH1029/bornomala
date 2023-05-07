@@ -1,7 +1,6 @@
 package com.rubi.bornomala;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity20 extends AppCompatActivity {

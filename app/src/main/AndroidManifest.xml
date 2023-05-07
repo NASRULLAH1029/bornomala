@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rubi.bornomala">
+    package="com.rubi.bornomala" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/ic_menu_gallery"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:targetApi="n">
+        tools:targetApi="n" >
         <activity
             android:name=".MainActivity20"
             android:exported="false" />
@@ -77,7 +77,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

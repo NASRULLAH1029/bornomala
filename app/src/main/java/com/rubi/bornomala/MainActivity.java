@@ -6,12 +6,8 @@ import android.content.Intent;
 
 import android.net.Uri;
 import android.os.Bundle;
-
-
-import android.util.Log;
 import android.view.MenuInflater;
 import android.view.View;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
@@ -22,8 +18,6 @@ import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -73,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_13 = (LinearLayout) findViewById(R.id.btn_13);
         layout_14 = (LinearLayout) findViewById(R.id.btn_14);
         layout_15 = (LinearLayout) findViewById(R.id.btn_15);
-        layout_15 = (LinearLayout) findViewById(R.id.btn_16);
+        layout_16 = (LinearLayout) findViewById(R.id.btn_16);
         layout_17 = (LinearLayout) findViewById(R.id.btn_17);
         layout_18 = (LinearLayout) findViewById(R.id.btn_18);
         layout_19 = (LinearLayout) findViewById(R.id.btn_19);
@@ -258,6 +252,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
 
 
+
         layout_16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -268,6 +263,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             }
         });
+
+
+
 
 
         layout_17.setOnClickListener(new View.OnClickListener() {

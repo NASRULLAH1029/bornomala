@@ -24,6 +24,7 @@
                 android:weightSum="30">
 
                 <LinearLayout
+
                     android:id="@+id/btn_1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -36,7 +37,8 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/alif" />
 
 
                     <TextView
@@ -44,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="আলিফ"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -53,6 +55,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:background="@color/colorPrimary"
                     android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -65,7 +68,7 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/ba" />
 
 
                     <TextView
@@ -73,7 +76,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="বা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -82,6 +85,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:background="@color/colorAccent"
                     android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -94,7 +98,7 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/ta" />
 
 
                     <TextView
@@ -102,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="তা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />

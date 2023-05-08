@@ -41,6 +41,30 @@ public class MainActivity2 extends AppCompatActivity {
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
         mediaPlayer.start();
     }
+
+
+    public void C_1(View view) {
+
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        mediaPlayer.start();
+
+    }
+
+
+    public void C_2(View view) {
+
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        mediaPlayer.start();
+
+    }
+
+    public void C_3(View view) {
+
+
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        mediaPlayer.start();
+    }
+
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
             this.finish();

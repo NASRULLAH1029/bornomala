@@ -129,6 +129,7 @@
                 android:weightSum="30">
 
                 <LinearLayout
+                    android:onClick="C_1"
                     android:id="@+id/btn_4"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -160,6 +161,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_5"
+                    android:onClick="C_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -190,6 +192,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_6"
+                    android:onClick="C_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"

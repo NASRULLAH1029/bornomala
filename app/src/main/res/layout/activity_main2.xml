@@ -71,7 +71,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/ba" />
+                        android:src="@drawable/ba"/>
 
 
                     <TextView
@@ -82,7 +82,7 @@
                         android:text="বা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"/>
 
 
                 </LinearLayout>
@@ -102,7 +102,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/alif" />
+                        android:src="@drawable/alif"/>
 
 
                     <TextView
@@ -233,6 +233,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_7"
+                    android:onClick="C_4"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -263,6 +264,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_8"
+                    android:onClick="C_5"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -293,6 +295,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_9"
+                    android:onClick="C_6"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -336,6 +339,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_7"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -366,6 +370,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_8"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -398,6 +403,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_9"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -436,6 +442,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -468,6 +475,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_11"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -493,6 +501,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_15"
+                    android:onClick="C_12"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -536,6 +545,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_13"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -563,6 +573,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_17"
+                    android:onClick="C_14"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -593,6 +604,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_18"
+                    android:onClick="C_15"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -637,6 +649,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_16"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -664,6 +677,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_20"
+                    android:onClick="C_17"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -694,6 +708,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_21"
+                    android:onClick="C_18"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -734,6 +749,7 @@
 
                 <LinearLayout
                     android:id="@+id/btn_22"
+                    android:onClick="C_19"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -769,6 +785,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_20"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -799,6 +816,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_21"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -838,6 +856,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_22"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -870,6 +889,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_23"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -900,6 +920,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_23"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -939,6 +960,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
+                    android:onClick="C_24"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -971,6 +993,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="C_25"
                     android:orientation="vertical"
                     android:padding="5dp">
 

@@ -410,7 +410,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="রা"
+                        android:text="র"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />

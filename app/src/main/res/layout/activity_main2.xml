@@ -140,7 +140,8 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ha" />
 
 
                     <TextView
@@ -148,7 +149,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="হা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -169,7 +170,8 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/zim" />
 
 
                     <TextView
@@ -177,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="জীম"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -198,7 +200,8 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/arbi_horof" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sa" />
 
 
                     <TextView
@@ -206,7 +209,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ছা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -295,6 +298,7 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/arbi_horof" />
 
 

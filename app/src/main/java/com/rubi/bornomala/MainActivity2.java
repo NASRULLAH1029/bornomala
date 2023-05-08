@@ -21,8 +21,6 @@ public class MainActivity2 extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         setTitle("আরবি হরফ সমূহ");
-
-
     }
 
     public void callClick(View view) {

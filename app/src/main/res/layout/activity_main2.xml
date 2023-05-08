@@ -449,7 +449,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="দ্বোয়াত"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -479,7 +479,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ছোয়াদ"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -509,7 +509,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="শীন"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -549,7 +549,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="আইন"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -579,7 +579,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="জ্বোয়া"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -609,7 +609,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ত্বোয়া"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -650,7 +650,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="কফ্"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -680,7 +680,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ফা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -710,7 +710,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="গ্বাইন"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -750,7 +750,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="মীম"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -780,7 +780,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="লাম"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -810,7 +810,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="কাফ"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -851,7 +851,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="হা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -881,7 +881,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ওয়াও"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -911,7 +911,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="নুন"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -952,7 +952,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="হামজা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -982,7 +982,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="আরবি হরফ"
+                        android:text="ইয়া"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />

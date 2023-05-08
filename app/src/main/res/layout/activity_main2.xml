@@ -341,7 +341,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/sin" />
 
 
                     <TextView
@@ -371,7 +371,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/ja" />
 
 
                     <TextView
@@ -401,7 +401,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/ra" />
 
 
                     <TextView
@@ -441,7 +441,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/doat" />
 
 
                     <TextView
@@ -471,7 +471,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/soad" />
 
 
                     <TextView
@@ -501,7 +501,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/shin" />
 
 
                     <TextView
@@ -541,7 +541,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/aei" />
 
 
                     <TextView
@@ -571,7 +571,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/joa" />
 
 
                     <TextView
@@ -601,7 +601,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/toa" />
 
 
                     <TextView
@@ -642,7 +642,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/kof" />
 
 
                     <TextView
@@ -672,7 +672,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/fa" />
 
 
                     <TextView
@@ -702,7 +702,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/gain" />
 
 
                     <TextView
@@ -742,7 +742,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/mim" />
 
 
                     <TextView
@@ -772,7 +772,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/lam" />
 
 
                     <TextView
@@ -802,7 +802,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/kaf" />
 
 
                     <TextView
@@ -843,7 +843,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/ha2" />
 
 
                     <TextView
@@ -873,7 +873,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/wow" />
 
 
                     <TextView
@@ -903,7 +903,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/nun" />
 
 
                     <TextView
@@ -944,7 +944,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/yaa" />
 
 
                     <TextView
@@ -952,7 +952,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="হামজা"
+                        android:text="ইয়া"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -974,7 +974,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/arbi_horof" />
+                        android:src="@drawable/hamza" />
 
 
                     <TextView
@@ -982,7 +982,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
-                        android:text="ইয়া"
+                        android:text="হামজা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />

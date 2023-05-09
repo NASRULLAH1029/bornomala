@@ -31,19 +31,19 @@ public class MainActivity2 extends AppCompatActivity {
 
     public void call(View view) {
 
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ba);
         mediaPlayer.start();
     }
 
     public void Click(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ta);
         mediaPlayer.start();
     }
 
 
     public void C_1(View view) {
 
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ha);
         mediaPlayer.start();
 
     }
@@ -51,7 +51,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     public void C_2(View view) {
 
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.zim);
         mediaPlayer.start();
 
     }
@@ -59,38 +59,38 @@ public class MainActivity2 extends AppCompatActivity {
     public void C_3(View view) {
 
 
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sa);
         mediaPlayer.start();
     }
 
     public void C_4(View view) {
 
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.jal);
         mediaPlayer.start();
     }
 
     public void C_5(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.dal);
         mediaPlayer.start();
     }
 
     public void C_6(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.kha);
         mediaPlayer.start();
     }
 
     public void C_7(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sinn);
         mediaPlayer.start();
     }
 
     public void C_8(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ja);
         mediaPlayer.start();
     }
 
     public void C_9(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.raa);
         mediaPlayer.start();
     }
 

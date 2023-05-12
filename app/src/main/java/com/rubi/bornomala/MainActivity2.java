@@ -95,17 +95,17 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_10(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.doat);
         mediaPlayer.start();
     }
 
     public void C_11(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.soad);
         mediaPlayer.start();
     }
 
     public void C_12(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sin);
         mediaPlayer.start();
     }
 
@@ -115,12 +115,12 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_14(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.joa);
         mediaPlayer.start();
     }
 
     public void C_15(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.toa);
         mediaPlayer.start();
     }
 

@@ -110,7 +110,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_13(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.aen);
         mediaPlayer.start();
     }
 
@@ -125,54 +125,54 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_16(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.kof);
         mediaPlayer.start();
     }
 
     public void C_17(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.fa);
         mediaPlayer.start();
     }
 
     public void C_18(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.goin);
         mediaPlayer.start();
     }
 
     public void C_19(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.mim);
         mediaPlayer.start();
     }
 
     public void C_20(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.lam);
         mediaPlayer.start();
     }
 
 
     public void C_21(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.kaf);
         mediaPlayer.start();
     }
 
     public void C_22(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ha2);
         mediaPlayer.start();
     }
 
     public void C_23(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.wow);
         mediaPlayer.start();
     }
 
 
     public void C_24(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.nun);
         mediaPlayer.start();
     }
 
     public void C_25(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.click);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.yaa);
         mediaPlayer.start();
     }
 
@@ -182,5 +182,13 @@ public class MainActivity2 extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+
+
+    public void C_26(View view) {
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.hamza);
+        mediaPlayer.start();
     }
 }

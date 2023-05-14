@@ -920,7 +920,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
-                    android:onClick="C_23"
+                    android:onClick="C_24"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -960,7 +960,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
-                    android:onClick="C_24"
+                    android:onClick="C_25"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -993,7 +993,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
-                    android:onClick="C_25"
+                    android:onClick="C_26"
                     android:orientation="vertical"
                     android:padding="5dp">
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,14 +7,17 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity3">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,18 +41,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="অ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a2" />
 
 
                 </LinearLayout>
@@ -69,18 +61,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="আ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a1" />
 
 
                 </LinearLayout>
@@ -100,18 +81,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ই"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a3" />
 
 
                 </LinearLayout>
@@ -141,18 +111,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ঈ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a4" />
 
 
                 </LinearLayout>
@@ -172,18 +131,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="উ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a5" />
 
 
                 </LinearLayout>
@@ -203,17 +151,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ঊ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a6" />
 
 
                 </LinearLayout>
@@ -243,18 +181,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ঋ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a7" />
 
 
                 </LinearLayout>
@@ -274,18 +201,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="এ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a8" />
 
 
                 </LinearLayout>
@@ -305,18 +221,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ঐ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a9" />
 
 
                 </LinearLayout>
@@ -346,18 +251,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ও"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a10" />
 
 
                 </LinearLayout>
@@ -377,18 +271,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/i2" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
-                        android:gravity="center"
-                        android:text="ঔ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:src="@drawable/a11" />
 
 
                 </LinearLayout>
@@ -402,4 +285,4 @@
 
     </ScrollView>
 
-</LinearLayout>
+</RelativeLayout>

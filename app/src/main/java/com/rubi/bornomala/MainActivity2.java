@@ -80,7 +80,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_7(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sinn);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sin);
         mediaPlayer.start();
     }
 
@@ -90,7 +90,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_9(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.raa);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.ro);
         mediaPlayer.start();
     }
 
@@ -105,7 +105,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void C_12(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sin);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.shin);
         mediaPlayer.start();
     }
 

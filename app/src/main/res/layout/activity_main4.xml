@@ -548,7 +548,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#512DA8"
+                        android:background="#AEEA00"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ন"

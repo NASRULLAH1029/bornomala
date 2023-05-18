@@ -1052,16 +1052,13 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <TextView
+                    <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#DD2C00"
-                        android:fontFamily="@font/solaiman"
+                        android:background="#00C853"
                         android:gravity="center"
-                        android:text="ঃ"
-                        android:textColor="@color/black"
-                        android:textSize="80sp"
-                        android:textStyle="bold" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/eee"/>
 
 
                 </LinearLayout>
@@ -1077,16 +1074,13 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <TextView
+                    <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#2962FF"
-                        android:fontFamily="@font/solaiman"
+                        android:background="#00C853"
                         android:gravity="center"
-                        android:text="ঁ"
-                        android:textColor="@color/black"
-                        android:textSize="80sp"
-                        android:textStyle="bold" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ddd"/>
 
 
                 </LinearLayout>

@@ -1025,7 +1025,8 @@
                         android:layout_height="100dp"
                         android:background="#00C853"
                         android:gravity="center"
-                        android:src="@drawable/vvvv"/>
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fff"/>
 
 
                 </LinearLayout>

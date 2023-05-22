@@ -1055,7 +1055,6 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00C853"
                         android:gravity="center"
                         android:scaleType="fitXY"
                         android:src="@drawable/eee"/>

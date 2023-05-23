@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity4">
 
     <ScrollView
@@ -432,7 +433,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ণ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -467,7 +468,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ত"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -492,7 +493,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="থ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -517,7 +518,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ধ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -552,7 +553,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ন"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -577,7 +578,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="প"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -602,7 +603,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ফ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -637,7 +638,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ব"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -662,7 +663,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ভ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -687,7 +688,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ম"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -722,7 +723,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="য"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -747,7 +748,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="র"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -772,7 +773,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ল"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -807,7 +808,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="শ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -832,7 +833,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ষ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -857,7 +858,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="স"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -892,7 +893,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="হ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -917,7 +918,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ড়"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -942,7 +943,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঢ়"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -977,7 +978,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="য়"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 
@@ -1002,7 +1003,7 @@
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ৎ"
-                        android:textColor="@color/black"
+                        android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
 

@@ -46,7 +46,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="তা"
                         android:textColor="@color/black"
@@ -77,7 +77,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বা"
                         android:textColor="@color/black"
@@ -108,7 +108,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="আলিফ"
                         android:textColor="@color/black"
@@ -149,7 +149,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="হা"
                         android:textColor="@color/black"
@@ -180,7 +180,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="জীম"
                         android:textColor="@color/black"
@@ -211,7 +211,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ছা"
                         android:textColor="@color/black"
@@ -252,7 +252,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="জাল"
                         android:textColor="@color/black"
@@ -283,7 +283,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="দাল"
                         android:textColor="@color/black"
@@ -314,7 +314,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="খ"
                         android:textColor="@color/black"
@@ -355,7 +355,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="সিন"
                         android:textColor="@color/black"
@@ -386,7 +386,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="যা"
                         android:textColor="@color/black"
@@ -417,7 +417,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="র"
                         android:textColor="@color/black"
@@ -458,7 +458,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="দ্বোয়াত"
                         android:textColor="@color/black"
@@ -489,7 +489,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ছোয়াদ"
                         android:textColor="@color/black"
@@ -520,7 +520,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="শীন"
                         android:textColor="@color/black"
@@ -561,7 +561,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="আইন"
                         android:textColor="@color/black"
@@ -592,7 +592,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="জ্বোয়া"
                         android:textColor="@color/black"
@@ -623,7 +623,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ত্বোয়া"
                         android:textColor="@color/black"
@@ -665,7 +665,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="কফ্"
                         android:textColor="@color/black"
@@ -696,7 +696,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ফা"
                         android:textColor="@color/black"
@@ -727,7 +727,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="গ্বাইন"
                         android:textColor="@color/black"
@@ -768,7 +768,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="মীম"
                         android:textColor="@color/black"
@@ -799,7 +799,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="লাম"
                         android:textColor="@color/black"
@@ -830,7 +830,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="কাফ"
                         android:textColor="@color/black"
@@ -872,7 +872,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="হা"
                         android:textColor="@color/black"
@@ -903,7 +903,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ওয়াও"
                         android:textColor="@color/black"
@@ -934,7 +934,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="নুন"
                         android:textColor="@color/black"
@@ -976,7 +976,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ইয়া"
                         android:textColor="@color/black"
@@ -1007,7 +1007,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="হামজা"
                         android:textColor="@color/black"

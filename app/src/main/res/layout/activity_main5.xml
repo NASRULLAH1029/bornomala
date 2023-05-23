@@ -1094,7 +1094,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_38"
+                    android:id="@+id/btn_39"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -1120,6 +1120,355 @@
 
 
             </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="30">
+
+                <LinearLayout
+                    android:id="@+id/btn_40"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C40"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪০"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_41"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C41"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪১"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_42"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C42"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪২"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="30">
+
+                <LinearLayout
+                    android:id="@+id/btn_43"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C43"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৩"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_44"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C44"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৪"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_45"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C45"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৫"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="30">
+
+                <LinearLayout
+                    android:id="@+id/btn_46"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C46"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৬"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_47"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C47"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৭"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_48"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C48"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৮"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="30">
+
+                <LinearLayout
+                    android:id="@+id/btn_49"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C49"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৪৯"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_50"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C50"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৫০"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_51"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C51"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="৫১"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
 
 
         </LinearLayout>

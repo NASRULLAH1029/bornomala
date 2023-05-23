@@ -517,7 +517,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ধ"
+                        android:text="দ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -552,7 +552,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ন"
+                        android:text="ধ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -577,7 +577,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="প"
+                        android:text="ন"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -602,7 +602,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ফ"
+                        android:text="প"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -637,7 +637,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ব"
+                        android:text="ফ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -662,7 +662,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ভ"
+                        android:text="ব"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -687,7 +687,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ম"
+                        android:text="ভ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -722,7 +722,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="য"
+                        android:text="ম"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -747,7 +747,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="র"
+                        android:text="য"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -772,7 +772,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ল"
+                        android:text="র"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -807,7 +807,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="শ"
+                        android:text="ল"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -832,7 +832,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ষ"
+                        android:text="শ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -857,7 +857,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="স"
+                        android:text="ষ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -892,7 +892,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="হ"
+                        android:text="স"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -917,7 +917,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ড়"
+                        android:text="হ"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -942,7 +942,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ঢ়"
+                        android:text="ড়"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -977,7 +977,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="য়"
+                        android:text="ঢ়"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -1002,7 +1002,7 @@
                         android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ৎ"
+                        android:text="য়"
                         android:textColor="@color/sada"
                         android:textSize="80sp"
                         android:textStyle="bold" />
@@ -1021,12 +1021,17 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/fff"
-                        app:civ_border_color="#FF000000"
-                        app:civ_border_width="2dp" />
+                        android:background="@drawable/circle_colored"
+                        android:fontFamily="@font/kalpurush"
+                        android:gravity="center"
+                        android:text="ৎ"
+                        android:textColor="@color/sada"
+                        android:textSize="80sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -1038,7 +1043,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:orientation="horizontal"
-                android:weightSum="20">
+                android:weightSum="30">
+
 
                 <LinearLayout
                     android:id="@+id/btn_37"
@@ -1054,7 +1060,7 @@
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/eee"
+                        android:src="@drawable/fff"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
 
@@ -1075,12 +1081,35 @@
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/eee"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_39"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:foreground="@drawable/effect"
+                    android:gravity="center"
+                    android:onClick="C39"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@drawable/ddd"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
 
 
                 </LinearLayout>
+
+
 
 
             </LinearLayout>

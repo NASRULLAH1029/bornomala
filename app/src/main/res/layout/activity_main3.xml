@@ -22,7 +22,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:orientation="horizontal"
                 android:weightSum="30">
 
@@ -35,12 +34,11 @@
                     android:gravity="center"
                     android:onClick="C1"
                     android:orientation="vertical"
-                    android:padding="10dp">
+                    android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a2" />
 
 
@@ -50,17 +48,16 @@
                     android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C2"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a1" />
 
 
@@ -70,19 +67,17 @@
                     android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C3"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a3" />
-
 
                 </LinearLayout>
 
@@ -107,10 +102,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a4" />
 
 
@@ -127,10 +121,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a5" />
 
 
@@ -147,10 +140,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a6" />
 
 
@@ -177,10 +169,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a7" />
 
 
@@ -197,10 +188,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a8" />
 
 
@@ -217,10 +207,9 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a9" />
 
 
@@ -247,12 +236,10 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a10" />
-
 
                 </LinearLayout>
 
@@ -267,12 +254,10 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/a11" />
-
 
                 </LinearLayout>
 

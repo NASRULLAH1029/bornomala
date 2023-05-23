@@ -44,7 +44,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="আরবি হরফ"
                         android:textColor="@color/black"
@@ -72,7 +72,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:text="বাংলা স্বরবর্ন"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -109,7 +109,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:text="বাংলা ব্যঞ্জনবর্ণ"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -136,7 +136,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বাংলা সংখ্যা"
                         android:textColor="@color/black"
@@ -174,7 +174,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:text="ইংরেজী বর্ণ"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -201,7 +201,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:text="ইংরেজী সংখ্যা"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -239,7 +239,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বাংলা কবিতা"
                         android:textColor="@color/black"
@@ -267,7 +267,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বাংলা ৭ দিনের নাম"
                         android:textColor="@color/black"
@@ -305,7 +305,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বাংলা ৬ ঋতু"
                         android:textColor="@color/black"
@@ -333,7 +333,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="বাংলা ১২ মাসের নাম"
                         android:textColor="@color/black"
@@ -372,7 +372,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ইংরেজী ৭ দিনের নাম"
                         android:textColor="@color/black"
@@ -400,7 +400,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ইংরেজী ৬ ঋতুর নাম"
                         android:textColor="@color/black"
@@ -439,7 +439,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ইংরেজী ১২ মাসের নাম"
                         android:textColor="@color/black"
@@ -467,7 +467,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="নামতা শিক্ষা"
                         android:textColor="@color/black"
@@ -505,7 +505,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ফলের নাম"
                         android:textColor="@color/black"
@@ -533,7 +533,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="পাখির নাম"
                         android:textColor="@color/black"
@@ -571,7 +571,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="শাক সবজির নাম"
                         android:textColor="@color/black"
@@ -600,7 +600,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="ছোটদের মজার গল্প"
                         android:textColor="@color/black"
@@ -639,7 +639,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/solaiman"
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="পশু পাখির ডাক"
                         android:textColor="@color/black"

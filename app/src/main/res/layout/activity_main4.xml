@@ -23,23 +23,23 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:orientation="horizontal"
-                android:weightSum="30">
+                android:weightSum="3">
 
                 <LinearLayout
                     android:id="@+id/btn_1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C1"
                     android:orientation="vertical"
-                    android:padding="10dp">
+                    android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#D50000"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ক"
@@ -54,8 +54,8 @@
                     android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="10"
+                    android:padding="5dp"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C2"
@@ -64,7 +64,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@color/colorAccent"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="খ"
@@ -79,8 +79,8 @@
                     android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="10"
+                    android:padding="5dp"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C3"
@@ -89,7 +89,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#AA00FF"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="গ"
@@ -108,13 +108,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:orientation="horizontal"
-                android:weightSum="30">
+                android:weightSum="3">
 
                 <LinearLayout
                     android:id="@+id/btn_4"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C4"
@@ -124,7 +124,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#6200EA"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঘ"
@@ -139,7 +139,7 @@
                     android:id="@+id/btn_5"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C5"
@@ -149,7 +149,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#304FFE"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঙ"
@@ -164,7 +164,7 @@
                     android:id="@+id/btn_6"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
+                    android:layout_weight="1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C6"
@@ -174,7 +174,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#0091EA"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="চ"
@@ -209,7 +209,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00BFA5"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ছ"
@@ -234,7 +234,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00C853"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="জ"
@@ -259,7 +259,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#64DD17"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঝ"
@@ -294,7 +294,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#FFD600"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঞ"
@@ -319,7 +319,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#FFAB00"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ট"
@@ -344,7 +344,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#FF6D00"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঠ"
@@ -379,7 +379,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#DD2C00"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ড"
@@ -404,7 +404,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00FFFF"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঢ"
@@ -429,7 +429,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#E57373"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ণ"
@@ -464,7 +464,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#D32F2F"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ত"
@@ -489,7 +489,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#C2185B"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="থ"
@@ -514,7 +514,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#7B1FA2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ধ"
@@ -549,7 +549,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#AEEA00"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ন"
@@ -574,7 +574,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#536DFE"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="প"
@@ -599,7 +599,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00B0FF"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ফ"
@@ -634,7 +634,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#006064"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ব"
@@ -659,7 +659,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#1DE9B6"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ভ"
@@ -684,7 +684,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00E676"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ম"
@@ -719,7 +719,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#76FF03"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="য"
@@ -744,7 +744,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#827717"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="র"
@@ -769,7 +769,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#F57F17"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ল"
@@ -804,7 +804,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#F4511E"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="শ"
@@ -829,7 +829,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00BFA5"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ষ"
@@ -854,7 +854,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#9E9E9E"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="স"
@@ -889,7 +889,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#607D8B"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="হ"
@@ -914,7 +914,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00C853"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ড়"
@@ -939,7 +939,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@color/colorPrimary"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ঢ়"
@@ -974,7 +974,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#AA00FF"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="য়"
@@ -999,7 +999,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#D50000"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/solaiman"
                         android:gravity="center"
                         android:text="ৎ"
@@ -1021,14 +1021,13 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00C853"
-                        android:gravity="center"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/fff"/>
-
+                        android:src="@drawable/fff"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
 
                 </LinearLayout>
 
@@ -1053,12 +1052,13 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:gravity="center"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/eee"/>
+                        android:src="@drawable/eee"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
 
 
                 </LinearLayout>
@@ -1074,13 +1074,13 @@
                     android:orientation="vertical"
                     android:padding="5dp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="#00C853"
-                        android:gravity="center"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/ddd"/>
+                        android:src="@drawable/ddd"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
 
 
                 </LinearLayout>

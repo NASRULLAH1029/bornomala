@@ -6,13 +6,4 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity9">
 
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/cute_tiger" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

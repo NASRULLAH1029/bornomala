@@ -33,11 +33,12 @@
                     android:gravity="center"
                     android:onClick="C1"
                     android:orientation="vertical"
-                    android:padding="10dp">
+                    android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -58,7 +59,8 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C2"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
@@ -83,7 +85,8 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C3"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
@@ -282,6 +285,7 @@
                     android:id="@+id/btn_10"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
@@ -311,6 +315,7 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C11"
+                    android:layout_margin="10dp"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -336,6 +341,7 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C12"
+                    android:layout_margin="10dp"
                     android:orientation="vertical"
                     android:padding="5dp">
 
@@ -2857,8 +2863,6 @@
 
 
                 </LinearLayout>
-
-
 
 
             </LinearLayout>

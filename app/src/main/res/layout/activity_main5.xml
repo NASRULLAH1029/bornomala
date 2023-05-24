@@ -54,7 +54,6 @@
                     android:id="@+id/btn_2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
@@ -65,6 +64,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -80,7 +80,6 @@
                     android:id="@+id/btn_3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
@@ -91,6 +90,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -98,6 +98,7 @@
                         android:textColor="@color/sada"
                         android:textSize="60sp"
                         android:textStyle="bold" />
+
 
                 </LinearLayout>
 
@@ -285,7 +286,6 @@
                     android:id="@+id/btn_10"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
@@ -296,6 +296,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -315,13 +316,13 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C11"
-                    android:layout_margin="10dp"
                     android:orientation="vertical"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -341,13 +342,13 @@
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:onClick="C12"
-                    android:layout_margin="10dp"
                     android:orientation="vertical"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/circle_colored_2"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
@@ -358,7 +359,6 @@
 
 
                 </LinearLayout>
-
 
             </LinearLayout>
 

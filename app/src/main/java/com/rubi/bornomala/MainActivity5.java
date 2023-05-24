@@ -499,7 +499,7 @@ public class MainActivity5 extends AppCompatActivity {
     }
 
 
-    public void C96(View view) {
+    public void C97(View view) {
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_97);
         mediaPlayer.start();
     }

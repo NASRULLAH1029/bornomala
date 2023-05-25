@@ -1,9 +1,11 @@
 package com.rubi.bornomala;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity5 extends AppCompatActivity {
@@ -12,6 +14,11 @@ public class MainActivity5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        setTitle("বাংলা সংখ্যা সমূহ");
     }
 
     public void C1(View view) {
@@ -518,4 +525,13 @@ public class MainActivity5 extends AppCompatActivity {
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_100);
         mediaPlayer.start();
     }
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            this.finish();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
 }

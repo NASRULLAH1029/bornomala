@@ -225,224 +225,224 @@ public class MainActivity7 extends AppCompatActivity {
     }
 
     public void C41(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_41);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num41);
         mediaPlayer.start();
     }
 
     public void C42(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_42);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num42);
         mediaPlayer.start();
     }
 
     public void C43(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_43);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num43);
         mediaPlayer.start();
     }
 
     public void C44(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_44);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num44);
         mediaPlayer.start();
     }
 
     public void C45(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_45);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num45);
         mediaPlayer.start();
     }
 
     public void C46(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_46);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num46);
         mediaPlayer.start();
     }
 
     public void C47(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_47);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num47);
         mediaPlayer.start();
     }
 
     public void C48(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_48);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num48);
         mediaPlayer.start();
     }
 
     public void C49(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_49);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num49);
         mediaPlayer.start();
     }
 
     public void C50(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_50);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num50);
         mediaPlayer.start();
     }
 
     public void C51(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_51);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num51);
         mediaPlayer.start();
     }
 
 
     public void C52(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_52);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num52);
         mediaPlayer.start();
     }
 
     public void C53(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_53);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num53);
         mediaPlayer.start();
     }
 
     public void C54(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_54);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num54);
         mediaPlayer.start();
     }
 
     public void C55(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_55);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num55);
         mediaPlayer.start();
     }
 
     public void C56(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_56);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num56);
         mediaPlayer.start();
     }
 
     public void C57(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_57);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num57);
         mediaPlayer.start();
     }
 
     public void C58(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_58);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num58);
         mediaPlayer.start();
     }
 
     public void C59(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_59);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num59);
         mediaPlayer.start();
     }
 
     public void C60(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_60);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num60);
         mediaPlayer.start();
     }
 
     public void C61(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_61);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num61);
         mediaPlayer.start();
     }
 
     public void C62(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_62);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num62);
         mediaPlayer.start();
     }
 
 
     public void C63(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_63);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num63);
         mediaPlayer.start();
     }
 
     public void C64(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_64);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num64);
         mediaPlayer.start();
     }
 
     public void C65(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_65);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num65);
         mediaPlayer.start();
     }
 
     public void C66(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_66);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num66);
         mediaPlayer.start();
     }
 
     public void C67(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_67);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num67);
         mediaPlayer.start();
     }
 
     public void C68(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_68);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num68);
         mediaPlayer.start();
     }
 
     public void C69(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_69);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num69);
         mediaPlayer.start();
     }
 
     public void C70(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_70);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num70);
         mediaPlayer.start();
     }
 
     public void C71(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_71);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num71);
         mediaPlayer.start();
     }
 
     public void C72(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_72);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num72);
         mediaPlayer.start();
     }
 
     public void C73(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_73);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num73);
         mediaPlayer.start();
     }
 
     public void C74(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_74);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num74);
         mediaPlayer.start();
     }
 
     public void C75(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_75);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num75);
         mediaPlayer.start();
     }
 
     public void C76(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_76);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num76);
         mediaPlayer.start();
     }
 
     public void C77(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_77);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num77);
         mediaPlayer.start();
     }
 
     public void C78(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_78);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num78);
         mediaPlayer.start();
     }
 
     public void C79(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_79);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num79);
         mediaPlayer.start();
     }
 
     public void C80(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_80);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num80);
         mediaPlayer.start();
     }
 
     public void C81(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_81);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num81);
         mediaPlayer.start();
     }
 
     public void C82(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_82);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num82);
         mediaPlayer.start();
     }
 
     public void C83(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_83);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num83);
         mediaPlayer.start();
     }
 
     public void C84(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_84);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num84);
         mediaPlayer.start();
     }
 
@@ -452,78 +452,78 @@ public class MainActivity7 extends AppCompatActivity {
     }
 
     public void C86(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_86);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num86);
         mediaPlayer.start();
     }
 
     public void C87(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_87);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num87);
         mediaPlayer.start();
     }
 
     public void C88(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_88);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num88);
         mediaPlayer.start();
     }
 
     public void C89(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_89);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num89);
         mediaPlayer.start();
     }
 
     public void C90(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_90);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num90);
         mediaPlayer.start();
     }
 
     public void C91(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_91);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num91);
         mediaPlayer.start();
     }
 
     public void C92(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_92);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num92);
         mediaPlayer.start();
     }
 
     public void C93(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_93);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num93);
         mediaPlayer.start();
     }
 
     public void C94(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_94);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num94);
         mediaPlayer.start();
     }
 
     public void C95(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_95);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num95);
         mediaPlayer.start();
     }
 
     public void C96(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_96);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num96);
         mediaPlayer.start();
     }
 
 
     public void C97(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_97);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num97);
         mediaPlayer.start();
     }
 
     public void C98(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_98);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num98);
         mediaPlayer.start();
     }
 
     public void C99(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_99);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num99);
         mediaPlayer.start();
     }
 
     public void C100(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_100);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num100);
         mediaPlayer.start();
     }
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {

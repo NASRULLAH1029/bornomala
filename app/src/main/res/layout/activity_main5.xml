@@ -39,12 +39,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -65,12 +65,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -91,12 +91,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -126,12 +126,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -151,12 +151,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -176,12 +176,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -211,12 +211,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -236,12 +236,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -261,12 +261,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -297,12 +297,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -323,12 +323,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -349,12 +349,12 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -383,12 +383,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -408,12 +408,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -433,12 +433,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -468,12 +468,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -493,12 +493,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -518,12 +518,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -553,12 +553,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -578,13 +578,13 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
+                        android:textStyle="bold"/>
 
 
                 </LinearLayout>
@@ -603,12 +603,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -638,12 +638,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -663,12 +663,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -688,12 +688,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -723,12 +723,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -748,12 +748,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -773,12 +773,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -808,12 +808,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -833,12 +833,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="২৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -858,12 +858,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -893,12 +893,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -918,12 +918,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -943,12 +943,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -978,12 +978,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1003,12 +1003,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1028,12 +1028,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1063,12 +1063,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1088,12 +1088,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1113,12 +1113,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৩৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1149,12 +1149,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1174,12 +1174,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1199,12 +1199,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1235,12 +1235,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1260,12 +1260,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1285,12 +1285,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1321,12 +1321,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1346,12 +1346,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1371,12 +1371,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1407,12 +1407,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৪৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1432,12 +1432,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1457,12 +1457,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1493,12 +1493,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1518,12 +1518,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1543,12 +1543,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1578,12 +1578,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1603,12 +1603,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1628,12 +1628,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1663,12 +1663,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1688,12 +1688,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৫৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1713,12 +1713,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1748,12 +1748,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1773,12 +1773,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1798,12 +1798,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1833,12 +1833,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1858,12 +1858,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1883,12 +1883,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1918,12 +1918,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1943,12 +1943,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৬৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -1968,12 +1968,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="৫৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:text="৬৯"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2003,12 +2003,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2028,12 +2028,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2053,12 +2053,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2088,12 +2088,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2113,12 +2113,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2138,12 +2138,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2173,12 +2173,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2198,12 +2198,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2223,11 +2223,11 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৮"
-                        android:textColor="@color/sada"
+                        android:textColor="@color/black"
                         android:textSize="60sp"
                         android:textStyle="bold" />
 
@@ -2258,11 +2258,11 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৭৯"
-                        android:textColor="@color/sada"
+                        android:textColor="@color/black"
                         android:textSize="60sp"
                         android:textStyle="bold" />
 
@@ -2283,12 +2283,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2308,12 +2308,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2343,12 +2343,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2368,12 +2368,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2393,12 +2393,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2428,12 +2428,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2453,12 +2453,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2478,12 +2478,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2513,12 +2513,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2538,12 +2538,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৮৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2563,12 +2563,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2598,12 +2598,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯১"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2623,12 +2623,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯২"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2648,12 +2648,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৩"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2683,12 +2683,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৪"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2708,12 +2708,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৫"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2733,12 +2733,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৬"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2768,12 +2768,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৭"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2793,12 +2793,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৮"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2818,12 +2818,12 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="৯৯"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 
@@ -2851,14 +2851,14 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/circle_colored_2"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/circle_colored"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
                         android:text="১০০"
-                        android:textColor="@color/sada"
-                        android:textSize="60sp"
+                        android:textColor="@color/black"
+                        android:textSize="80sp"
                         android:textStyle="bold" />
 
 

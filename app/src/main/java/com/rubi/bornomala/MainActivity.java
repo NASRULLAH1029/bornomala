@@ -307,12 +307,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        if (item.getItemId() == R.id.info) {
-
-            Intent intent = new Intent(MainActivity.this, info.class);
-            startActivity(intent);
-
-        } else if (item.getItemId() == R.id.share) {
+   if (item.getItemId() == R.id.share) {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
             String shareBody = "https://play.google.com/store/apps/details?id=com.rubi.bornomala";

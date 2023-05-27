@@ -83,7 +83,6 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity android:name=".feedback" />
-        <activity android:name=".info" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

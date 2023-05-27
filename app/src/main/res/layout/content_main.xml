@@ -38,6 +38,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/arbi_horof" />
 
 
@@ -66,6 +67,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/i2" />
 
 
@@ -103,6 +105,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/banjon" />
 
 
@@ -130,6 +133,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_songkha" />
 
 
@@ -168,6 +172,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/english_borno" />
 
 
@@ -195,6 +200,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/english_songkha" />
 
 
@@ -233,6 +239,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_kobita" />
 
 
@@ -261,6 +268,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_satdiner_name" />
 
 
@@ -299,6 +307,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_ritu" />
 
 
@@ -327,6 +336,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_baro_maser_name" />
 
 
@@ -366,6 +376,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/days_of_the_week" />
 
 
@@ -394,6 +405,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/six_season" />
 
 
@@ -433,6 +445,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/english_month_name" />
 
 
@@ -461,6 +474,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/namta" />
 
 
@@ -499,6 +513,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/foll" />
 
 
@@ -527,6 +542,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pakhir_name" />
 
 
@@ -565,6 +581,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/sak" />
 
 
@@ -611,47 +628,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                android:weightSum="20">
-
-
-                <LinearLayout
-                    android:id="@+id/btn_19"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/dak" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="পশু পাখির ডাক"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
 
         </LinearLayout>
 

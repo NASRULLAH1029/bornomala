@@ -33,7 +33,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
 
-    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10, layout_11, layout_12, layout_13, layout_14, layout_15, layout_16, layout_17, layout_18, layout_19;
+    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10, layout_11, layout_12, layout_13, layout_14, layout_15, layout_16, layout_17, layout_18;
 
 
     @Override
@@ -69,8 +69,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_16 = (LinearLayout) findViewById(R.id.btn_16);
         layout_17 = (LinearLayout) findViewById(R.id.btn_17);
         layout_18 = (LinearLayout) findViewById(R.id.btn_18);
-        layout_19 = (LinearLayout) findViewById(R.id.btn_19);
-
 
         layout_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -291,16 +289,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
 
 
-        layout_19.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity20.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
 
     }
 
@@ -368,8 +356,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Uri uri = Uri.parse("https://play.google.com/store/apps/developer?id=Rubi+Apps+BD" + getApplicationContext().getPackageName());
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
-                    Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_LONG);
-                    toast.show();
 
                 }
             });
@@ -444,7 +430,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
         }
-
         return true;
 
     }

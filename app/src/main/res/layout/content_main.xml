@@ -39,7 +39,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/arbi_horof" />
 
 
@@ -68,7 +67,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/i2" />
 
 
@@ -106,7 +104,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/banjon" />
 
 
@@ -134,7 +131,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_songkha" />
 
 
@@ -173,7 +169,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/english_borno" />
 
 
@@ -201,7 +196,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/english_songkha" />
 
 
@@ -240,7 +234,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_kobita" />
 
 
@@ -269,7 +262,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_satdiner_name" />
 
 
@@ -308,7 +300,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_ritu" />
 
 
@@ -337,7 +328,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/bangla_baro_maser_name" />
 
 
@@ -377,7 +367,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/days_of_the_week" />
 
 
@@ -406,7 +395,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/six_season" />
 
 
@@ -446,7 +434,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/english_month_name" />
 
 
@@ -475,7 +462,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/namta" />
 
 
@@ -514,7 +500,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/foll" />
 
 
@@ -543,7 +528,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/pakhir_name" />
 
 
@@ -582,7 +566,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/sak" />
 
 
@@ -611,7 +594,6 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:scaleType="fitXY"
                         android:src="@drawable/golpo" />
 
 

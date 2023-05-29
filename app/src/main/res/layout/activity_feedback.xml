@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
     tools:context=".feedback">
 
     <LinearLayout
@@ -15,34 +14,12 @@
         android:orientation="vertical"
         android:visibility="visible">
 
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/app_themecolor">
-
-            <ImageView
-                android:id="@+id/back_developer"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/back" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/kalpurush"
-                android:gravity="center"
-                android:text="ডেভেলপার সস্পর্কে"
-                android:textColor="@color/sada"
-                android:textSize="20sp" />
-
-
-        </androidx.appcompat.widget.Toolbar>
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F9FCFD"
@@ -73,7 +50,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="90dp"
-                            android:background="#00BCD4">
+                            android:background="#00C853">
 
 
                         </LinearLayout>
@@ -98,7 +75,7 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="#00BCD4"
+                                    android:background="#00C853"
                                     android:scaleType="fitXY"
                                     android:src="@drawable/my_logo" />
 
@@ -235,7 +212,7 @@
                                 android:layout_marginHorizontal="80dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="20dp"
-                                android:backgroundTint="#00BCD4"
+                                android:backgroundTint="#00C853"
                                 app:cardCornerRadius="15dp"
                                 app:cardElevation="5dp"
 

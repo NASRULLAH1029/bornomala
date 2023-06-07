@@ -36,6 +36,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_1" />
 
 
@@ -52,6 +53,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_2" />
 
 
@@ -78,6 +80,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_3" />
 
 
@@ -94,6 +97,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_4" />
 
 
@@ -120,6 +124,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_5" />
 
 
@@ -136,6 +141,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_6" />
 
 
@@ -163,6 +169,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_7" />
 
 
@@ -179,6 +186,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_8" />
 
 
@@ -205,6 +213,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_9" />
 
 
@@ -221,6 +230,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/pic_10" />
 
 

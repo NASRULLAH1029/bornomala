@@ -16,6 +16,36 @@
         android:theme="@style/AppTheme"
         tools:targetApi="n">
         <activity
+            android:name=".kobita_10"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_9"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_8"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_7"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_6"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_5"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_4"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_3"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_2"
+            android:exported="false" />
+        <activity
+            android:name=".kobita_1"
+            android:exported="false" />
+        <activity
             android:name=".splash_screen"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
@@ -86,9 +116,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

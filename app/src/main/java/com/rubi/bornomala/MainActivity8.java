@@ -1,9 +1,11 @@
 package com.rubi.bornomala;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -16,6 +18,11 @@ public class MainActivity8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main8);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        setTitle("কবিতা সমূহ");
 
         layout_1 = (LinearLayout) findViewById(R.id.btn_1);
         layout_2 = (LinearLayout) findViewById(R.id.btn_2);
@@ -32,7 +39,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_1.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -43,7 +50,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity3.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_2.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -55,7 +62,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity4.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_3.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -67,7 +74,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity5.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_4.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -79,7 +86,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity6.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_5.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -91,7 +98,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity7.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_6.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -103,7 +110,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity8.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_7.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -115,7 +122,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity9.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_8.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -127,7 +134,7 @@ public class MainActivity8 extends AppCompatActivity {
         layout_9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity10.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_9.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
@@ -139,12 +146,20 @@ public class MainActivity8 extends AppCompatActivity {
         layout_10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, MainActivity11.class);
+                Intent intent = new Intent(MainActivity8.this, kobita_10.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
         });
+    }
+
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            this.finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

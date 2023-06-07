@@ -14,6 +14,8 @@ public class MainActivity8 extends AppCompatActivity {
 
     LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,5 +163,6 @@ public class MainActivity8 extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+
     }
 }

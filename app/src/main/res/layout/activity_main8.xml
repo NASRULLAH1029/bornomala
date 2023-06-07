@@ -10,8 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_margin="5dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,8 +53,6 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_2" />
-
-
 
 
                 </LinearLayout>
@@ -99,7 +97,6 @@
                         android:src="@drawable/pic_4" />
 
 
-
                 </LinearLayout>
 
 
@@ -126,9 +123,6 @@
                         android:src="@drawable/pic_5" />
 
 
-
-
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,7 +137,6 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_6" />
-
 
 
                 </LinearLayout>
@@ -189,9 +182,6 @@
                         android:src="@drawable/pic_8" />
 
 
-
-
-
                 </LinearLayout>
 
 
@@ -233,8 +223,6 @@
                         android:layout_height="150dp"
                         android:src="@drawable/pic_10" />
 
-
-               
 
                 </LinearLayout>
 

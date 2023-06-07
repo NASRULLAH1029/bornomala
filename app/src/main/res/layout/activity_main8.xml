@@ -31,24 +31,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_1" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="আরবি হরফ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -59,8 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
@@ -68,14 +55,6 @@
                         android:src="@drawable/pic_2" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="বাংলা স্বরবর্ন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -96,23 +75,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_3" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="বাংলা ব্যঞ্জনবর্ণ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -123,24 +91,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_4" />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="বাংলা সংখ্যা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -161,8 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
@@ -170,14 +126,7 @@
                         android:src="@drawable/pic_5" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="ইংরেজী বর্ণ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+
 
 
                 </LinearLayout>
@@ -188,23 +137,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_6" />
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:text="ইংরেজী সংখ্যা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -226,24 +165,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_7" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="বাংলা কবিতা"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -254,8 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
@@ -263,15 +189,7 @@
                         android:src="@drawable/pic_8" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="বাংলা ৭ দিনের নাম"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+
 
 
                 </LinearLayout>
@@ -292,24 +210,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/pic_9" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="বাংলা ৬ ঋতু"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -320,8 +226,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:gravity="center">
 
                     <ImageView
                         android:layout_width="150dp"
@@ -329,16 +234,7 @@
                         android:src="@drawable/pic_10" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="বাংলা ১২ মাসের নাম"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
+               
 
                 </LinearLayout>
 

@@ -19,9 +19,9 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/titel" />
+                android:src="@drawable/ritu" />
 
 
             <LinearLayout
@@ -44,10 +44,10 @@
                     <ImageView
 
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_margin="5dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/b_day_1" />
+                        android:src="@drawable/r_1" />
 
 
                 </LinearLayout>
@@ -66,10 +66,10 @@
                     <ImageView
 
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_margin="5dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/b_day_2" />
+                        android:src="@drawable/r_2" />
 
 
                 </LinearLayout>

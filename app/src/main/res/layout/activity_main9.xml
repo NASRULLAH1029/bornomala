@@ -36,6 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="10"
+                    android:onClick="b1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -59,6 +60,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b2"
                     android:orientation="vertical">
 
                     <ImageView
@@ -89,6 +91,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b3"
                     android:orientation="vertical">
 
                     <ImageView
@@ -110,6 +113,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b4"
                     android:orientation="vertical">
 
                     <ImageView
@@ -140,6 +144,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b5"
                     android:orientation="vertical">
 
                     <ImageView
@@ -161,6 +166,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b6"
                     android:orientation="vertical">
 
                     <ImageView
@@ -191,6 +197,7 @@
                     android:layout_weight="10"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b7"
                     android:orientation="vertical">
 
                     <ImageView

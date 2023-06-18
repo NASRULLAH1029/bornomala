@@ -25,15 +25,21 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
-               android:layout_marginTop="5dp"
-                android:background="#00BCD4" />
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#868888" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#868888" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:orientation="horizontal"
                 android:weightSum="20">
 
                 <LinearLayout
@@ -42,18 +48,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="10"
-                    android:onClick="b1"
                     android:foreground="@drawable/effect"
                     android:gravity="center"
+                    android:onClick="b1"
                     android:orientation="vertical">
 
-                    <ImageView
 
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/r_1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="গ্রীষ্মকাল"
+                        android:textColor="@color/black"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -69,19 +77,26 @@
                     android:onClick="b2"
                     android:orientation="vertical">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/r_2" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kalpurush"
+                        android:text="হেমন্তকাল"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
 
 
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#868888" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -100,13 +115,14 @@
                     android:onClick="b3"
                     android:orientation="vertical">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_3" />
+                        android:fontFamily="@font/kalpurush"
+                        android:text="বর্ষাকাল"
+                        android:textColor="#304FFE"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -122,19 +138,25 @@
                     android:onClick="b4"
                     android:orientation="vertical">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_4" />
-
+                        android:fontFamily="@font/kalpurush"
+                        android:text="শীতকাল"
+                        android:textColor="#6200EA"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
 
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#868888" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -152,14 +174,14 @@
                     android:gravity="center"
                     android:onClick="b5"
                     android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_5" />
+                        android:fontFamily="@font/kalpurush"
+                        android:text="শরৎকাল"
+                        android:textColor="#018538"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -175,19 +197,26 @@
                     android:onClick="b6"
                     android:orientation="vertical">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_6" />
+                        android:fontFamily="@font/kalpurush"
+                        android:text="বসন্তকাল"
+                        android:textColor="#D50000"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
 
 
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#868888" />
 
         </LinearLayout>
 

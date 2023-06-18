@@ -54,13 +54,22 @@
                     android:orientation="vertical">
 
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:text="গ্রীষ্মকাল"
                         android:textColor="@color/black"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
 
@@ -77,13 +86,21 @@
                     android:onClick="b2"
                     android:orientation="vertical">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-                        android:text="হেমন্তকাল"
+                        android:text="বর্ষাকাল"
                         android:textColor="@color/ic_launcher_background"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
 
@@ -115,13 +132,21 @@
                     android:onClick="b3"
                     android:orientation="vertical">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-                        android:text="বর্ষাকাল"
+                        android:text="শরৎকাল"
                         android:textColor="#304FFE"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
 
@@ -138,13 +163,21 @@
                     android:onClick="b4"
                     android:orientation="vertical">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-                        android:text="শীতকাল"
+                        android:text="হেমন্তকাল"
                         android:textColor="#6200EA"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -174,13 +207,22 @@
                     android:gravity="center"
                     android:onClick="b5"
                     android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-                        android:text="শরৎকাল"
+                        android:text="শীতকাল"
                         android:textColor="#018538"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
 
@@ -197,13 +239,21 @@
                     android:onClick="b6"
                     android:orientation="vertical">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gr_1"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_width="2dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:text="বসন্তকাল"
                         android:textColor="#D50000"
-                        android:textSize="50sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
 

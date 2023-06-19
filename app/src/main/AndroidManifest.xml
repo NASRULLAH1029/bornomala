@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rubi.bornomala" >
+    package="com.rubi.bornomala">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,19 @@
         android:roundIcon="@drawable/logo_for_bornomala"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:targetApi="n" >
+        tools:targetApi="n">
+        <activity
+            android:name=".MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="false" />
         <activity
             android:name=".MainActivity17"
             android:exported="false" />
@@ -51,7 +63,7 @@
         <activity
             android:name=".splash_screen"
             android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -103,7 +115,9 @@
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
-        <activity android:name=".feedback" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

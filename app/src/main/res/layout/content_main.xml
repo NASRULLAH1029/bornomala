@@ -455,6 +455,7 @@
 
                     </LinearLayout>
 
+
                     <LinearLayout
                         android:id="@+id/btn_14"
                         android:layout_width="fill_parent"
@@ -467,7 +468,7 @@
                         <ImageView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:src="@drawable/namta" />
+                            android:src="@drawable/sak" />
 
 
                         <TextView
@@ -475,13 +476,15 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/kalpurush"
                             android:gravity="center"
-                            android:text="নামতা শিক্ষা"
+                            android:text="শাক সবজির নাম"
                             android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
 
 
                     </LinearLayout>
+
+
 
                 </LinearLayout>
 
@@ -556,64 +559,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:orientation="horizontal"
-                    android:weightSum="20">
+                    android:weightSum="10">
 
 
-                    <LinearLayout
-                        android:id="@+id/btn_17"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/sak" />
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="শাক সবজির নাম"
-                            android:textColor="@color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_18"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:src="@drawable/golpo" />
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="ছোটদের মজার গল্প"
-                            android:textColor="@color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
 
                 </LinearLayout>
 

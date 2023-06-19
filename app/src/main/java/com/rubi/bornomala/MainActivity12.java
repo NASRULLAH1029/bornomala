@@ -15,6 +15,8 @@ public class MainActivity12 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main12);
 
+        setTitle("ইংরেজী ৭ দিনের নাম");
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }

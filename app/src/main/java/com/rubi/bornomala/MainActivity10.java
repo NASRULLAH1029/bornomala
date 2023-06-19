@@ -15,7 +15,7 @@ public class MainActivity10 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main10);
 
-        setTitle("বাংলা ৬ ঋতু নাম");
+        setTitle("বাংলা ছয় ঋতুর নাম");
     }
 
     public void b1(View view) {

@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:textStyle="bold"
-                android:textSize="50sp"
+                android:textSize="40sp"
                 android:gravity="center"
                 android:fontFamily="@font/kalpurush"
                 android:textColor="@color/black"
@@ -60,8 +60,8 @@
 
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
                         android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
@@ -92,10 +92,10 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_2"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
 
@@ -138,13 +138,12 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_3"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -169,10 +168,10 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_4"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
 
@@ -214,10 +213,10 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_5"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
 
@@ -245,10 +244,10 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_6"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
 
@@ -291,10 +290,10 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_5"
+                        android:src="@drawable/gr_1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
 

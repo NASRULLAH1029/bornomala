@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,7 +64,6 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/gr_1"
                         android:src="@drawable/g1"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
@@ -74,11 +73,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-                        android:text="SUMMER"
                         android:text="JANUARY-জানুয়ারী"
                         android:textColor="@color/black"
-                        android:textColor="@color/black"
-                        android:textSize="30sp"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -109,11 +105,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="RAINY"
                         android:text="FEBRUARY-ফেব্রুয়ারী"
-                        android:textColor="@color/ic_launcher_background"
-                        android:textColor="@color/ic_launcher_background"
-                        android:textSize="30sp"
+                       android:textColor="@color/ic_launcher_background"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -151,9 +144,6 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginTop="10dp"
-
-
-                        android:src="@drawable/gr_3"
                         android:src="@drawable/g3"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
@@ -162,13 +152,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
-
-
-                        android:text="AUTUMN"
                         android:text="MARCH-মার্চ"
                         android:textColor="#304FFE"
-                        android:textColor="#304FFE"
-                        android:textSize="30sp"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -190,10 +175,6 @@
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginTop="10dp"
-
-
-                        android:src="@drawable/gr_4"
-
                         android:src="@drawable/g4"
                         app:civ_border_color="#FFFFFF"
                         app:civ_border_width="2dp" />
@@ -203,11 +184,8 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="LATE AUTUMN"
                         android:text="APRIL-এপ্রিল"
                         android:textColor="#6200EA"
-                        android:textColor="#6200EA"
-                        android:textSize="30sp"
                         android:textSize="30sp"
                         android:textStyle="bold" />
 

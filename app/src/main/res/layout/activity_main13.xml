@@ -267,7 +267,7 @@
                         android:gravity="center"
                         android:text="June-জুন"
                         android:textColor="#D50000"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -316,7 +316,7 @@
                         android:gravity="center"
                         android:text="July-জুলাই"
                         android:textColor="#6200EA"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -349,7 +349,7 @@
                         android:gravity="center"
                         android:text="August-আগষ্ট"
                         android:textColor="#0091EA"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -398,7 +398,7 @@
                         android:gravity="center"
                         android:text="September-সেপ্টেম্বর"
                         android:textColor="#FFAB00"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -431,7 +431,7 @@
                         android:gravity="center"
                         android:text="October-অক্টোবর"
                         android:textColor="#D50000"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -479,7 +479,7 @@
                         android:gravity="center"
                         android:text="November-নভেম্বর"
                         android:textColor="#018538"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 
@@ -512,7 +512,7 @@
                         android:gravity="center"
                         android:text="December-ডিসেম্বর"
                         android:textColor="#C51162"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
 
 

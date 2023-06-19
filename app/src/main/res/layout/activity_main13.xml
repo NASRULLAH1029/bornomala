@@ -18,11 +18,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ritu" />
+                android:text="ইংরেজী ছয় ঋতুর নাম"
+                android:gravity="center"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"/>
 
 
             <View

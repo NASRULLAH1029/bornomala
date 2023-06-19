@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/bg"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity16">
-
 
 
     <ScrollView
@@ -24,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/kalpurush"
-                android:text="শাক সবজির নাম"
+                android:text="ফলের নাম"
                 android:textColor="#D50000"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -60,14 +59,10 @@
                     android:orientation="vertical">
 
 
-
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/"/>
-
-
-
+                        android:src="@drawable/appel" />
 
 
                     <TextView
@@ -75,7 +70,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="আলু—Potato"
+                        android:text="আপেল—Apple"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -97,8 +92,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/carrots"/>
-
+                        android:src="@drawable/kola" />
 
 
                     <TextView
@@ -106,7 +100,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="গাজর–Carrots"
+                        android:text="কলা–Banana"
                         android:textColor="@color/ic_launcher_background"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -143,8 +137,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/cucumber"/>
-
+                        android:src="@drawable/narikel" />
 
 
                     <TextView
@@ -152,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="শসা-Cucumber"
+                        android:text="নারকেল-Coconut"
                         android:textColor="#304FFE"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -174,7 +167,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/brinjal"/>
+                        android:src="@drawable/komla" />
 
 
                     <TextView
@@ -182,7 +175,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="বেগুন–Brinjal"
+                        android:text="কমলা–Orange"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -217,7 +210,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/ladiesfinger"/>
+                        android:src="@drawable/anaros" />
 
 
                     <TextView
@@ -225,7 +218,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ঢেঁড়স-Ladies finger"
+                        android:text="আনারস-Pineapple"
                         android:textColor="#018538"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -246,8 +239,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/peas"/>
-
+                        android:src="@drawable/pepe" />
 
 
                     <TextView
@@ -255,7 +247,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="মটরশুটি-peas"
+                        android:text="পেঁপে-Papaya"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -292,8 +284,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/radish"/>
-
+                        android:src="@drawable/amm" />
 
 
                     <TextView
@@ -301,7 +292,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="মূলা-Radish"
+                        android:text="আম-Mango"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -322,8 +313,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/turnip"/>
-
+                        android:src="@drawable/pyara" />
 
 
                     <TextView
@@ -331,7 +321,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="শালগম-Turnip"
+                        android:text="পেয়ারা-Guava"
                         android:textColor="#0091EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -366,11 +356,10 @@
                     android:orientation="vertical">
 
 
-
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/bittergourd"/>
+                        android:src="@drawable/lebu" />
 
 
                     <TextView
@@ -378,7 +367,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="করলা-Bitter gourd"
+                        android:text="লেবু-Lemon"
                         android:textColor="#FFAB00"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -397,7 +386,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/mushroom"/>
+                        android:src="@drawable/tarmuj" />
 
 
                     <TextView
@@ -405,7 +394,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="মাশরুম-Mushroom"
+                        android:text="তরমুজ-Watermelon"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />

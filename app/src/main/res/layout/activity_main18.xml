@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/kalpurush"
-                android:text="ফুৃলের নাম"
+                android:text="পাখির নাম"
                 android:textColor="#D50000"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -60,7 +60,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/surjo" />
+                        android:src="@drawable/p1" />
 
 
                     <TextView
@@ -68,7 +68,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="সূর্যমুখী—SUNFLOWER"
+                        android:text=""
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -90,7 +90,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f2" />
+                        android:src="@drawable/p2" />
 
 
                     <TextView
@@ -98,7 +98,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="চম্পা–PLUMERIA"
+                        android:text=""
                         android:textColor="@color/ic_launcher_background"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -135,7 +135,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f3" />
+                        android:src="@drawable/p3" />
 
 
                     <TextView
@@ -143,7 +143,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="বনফুল-PANSY"
+                        android:text=""
                         android:textColor="#304FFE"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -165,7 +165,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f4" />
+                        android:src="@drawable/p4" />
 
 
                     <TextView
@@ -173,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="পোস্তা–POPPY"
+                        android:text=""
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -208,7 +208,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f5" />
+                        android:src="@drawable/p5" />
 
 
                     <TextView
@@ -216,7 +216,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="তারক ফুল-ASTER"
+                        android:text=""
                         android:textColor="#018538"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -237,7 +237,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f6" />
+                        android:src="@drawable/p6" />
 
 
                     <TextView
@@ -245,7 +245,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="শাপলা-LOTUS"
+                        android:text=""
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -282,7 +282,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f7" />
+                        android:src="@drawable/p7" />
 
 
                     <TextView
@@ -290,7 +290,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="নার্গিস-DAFFODIL"
+                        android:text=""
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -311,7 +311,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f8" />
+                        android:src="@drawable/p8" />
 
 
                     <TextView
@@ -319,7 +319,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="গোলাপ-ROSE"
+                        android:text=""
                         android:textColor="#0091EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -357,7 +357,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f9" />
+                        android:src="@drawable/p9" />
 
 
                     <TextView
@@ -365,7 +365,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="গুলমোহর-DELONIX REGIA"
+                        android:text=""
                         android:textColor="#FFAB00"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -384,7 +384,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/f10" />
+                        android:src="@drawable/p10" />
 
 
                     <TextView
@@ -392,7 +392,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="কচনার-BAUHINIA"
+                        android:text=""
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />

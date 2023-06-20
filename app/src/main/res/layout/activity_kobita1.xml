@@ -6,48 +6,55 @@
     tools:context=".kobita_1">
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container">
 
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
 
-            <ImageView
-                android:id="@+id/image"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/pic_1" />
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/k_1"
-                android:textColor="@color/black"
-                android:textSize="25sp" />
+                android:orientation="vertical">
 
 
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pic_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="@string/k_1"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
 
 
-    </ScrollView>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/banner_container"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:orientation="vertical" />
 
 
 </RelativeLayout>

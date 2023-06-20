@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="গরু-Cow"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -91,7 +91,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p2" />
+                        android:src="@drawable/k2" />
 
 
                     <TextView
@@ -99,7 +99,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="কাক-Crow"
+                        android:text="ছাগল-Goat"
                         android:textColor="@color/ic_launcher_background"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -136,7 +136,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p3" />
+                        android:src="@drawable/k3" />
 
 
                     <TextView
@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="চড়াই-Sparrow"
+                        android:text="বিড়াল-Cat"
                         android:textColor="#304FFE"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -166,7 +166,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p4" />
+                        android:src="@drawable/k4" />
 
 
                     <TextView
@@ -174,7 +174,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="টিঁয়া-Parrot"
+                        android:text="হাতি-Elephant"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -209,7 +209,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p5" />
+                        android:src="@drawable/k5" />
 
 
                     <TextView
@@ -217,7 +217,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="পায়রা-Pigeon"
+                        android:text="হরিণ-Deer"
                         android:textColor="#018538"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -238,7 +238,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p6" />
+                        android:src="@drawable/k6" />
 
 
                     <TextView
@@ -246,7 +246,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="হাস-Duck"
+                        android:text="সিংহ-Lion"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -283,7 +283,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p7" />
+                        android:src="@drawable/k7" />
 
 
                     <TextView
@@ -291,7 +291,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ময়ূর-Peacock"
+                        android:text="ঘোড়া-Horse"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -312,7 +312,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p8" />
+                        android:src="@drawable/k8" />
 
 
                     <TextView
@@ -320,7 +320,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ঘুঘু-Dove"
+                        android:text="বানর-Monkey"
                         android:textColor="#0091EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -358,7 +358,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p9" />
+                        android:src="@drawable/k9" />
 
 
                     <TextView
@@ -366,7 +366,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="মুরগী-Hen"
+                        android:text="ভালুক-Bear"
                         android:textColor="#FFAB00"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -385,7 +385,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/p10" />
+                        android:src="@drawable/k10" />
 
 
                     <TextView
@@ -393,7 +393,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text="ঈগল-Egle"
+                        android:text="Rabbit-খরগোশ"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -410,4 +410,4 @@
 
     </ScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

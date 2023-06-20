@@ -7,69 +7,214 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity9">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp">
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/titel" />
-
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="20">
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/titel" />
+
 
                 <LinearLayout
-                    android:id="@+id/btn_1"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:onClick="b1"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="horizontal"
+                    android:weightSum="20">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:id="@+id/btn_1"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_1" />
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b1"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_1" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b2"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_2" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_2"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b2"
-                    android:orientation="vertical">
+                    android:orientation="horizontal"
+                    android:weightSum="20">
 
-                    <ImageView
-
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:id="@+id/btn_3"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_2" />
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b3"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_3" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b4"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_4" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b5"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_5" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b6"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_6" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:id="@+id/btn_7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="b7"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/b_day_7" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -77,146 +222,17 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="20">
+        </ScrollView>
 
-                <LinearLayout
-                    android:id="@+id/btn_3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b3"
-                    android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_3" />
+    </LinearLayout>
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_4"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b4"
-                    android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_4" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="20">
-
-                <LinearLayout
-                    android:id="@+id/btn_5"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b5"
-                    android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_5" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_6"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b6"
-                    android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_6" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="10">
-
-                <LinearLayout
-                    android:id="@+id/btn_7"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="b7"
-                    android:orientation="vertical">
-
-                    <ImageView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/b_day_7" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-    </ScrollView>
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </RelativeLayout>

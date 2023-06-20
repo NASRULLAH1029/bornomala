@@ -8,1092 +8,1089 @@
     tools:context=".MainActivity2">
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
+                android:orientation="vertical">
 
                 <LinearLayout
-
-                    android:id="@+id/btn_3"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="Click"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ta"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                    <LinearLayout
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/btn_3"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="তা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="Click"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ta"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="তা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="call"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ba"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="বা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="callClick"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/alif"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="আলিফ"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_2"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="call"
-                    android:orientation="vertical">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ba"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_4"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="বা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold"/>
+                        android:onClick="C_1"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ha"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="হা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_2"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/zim"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="জীম"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_3"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/sa"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ছা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_1"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="callClick"
-                    android:orientation="vertical">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/alif"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_7"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="আলিফ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_4"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/jal"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:onClick="C_1"
-                    android:id="@+id/btn_4"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ha"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="জাল"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_8"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="হা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_5"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/dal"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_5"
-                    android:onClick="C_2"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/zim"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="দাল"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
+                    </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_9"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="জীম"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_6"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/kha"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_6"
-                    android:onClick="C_3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="খ"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/sa"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="ছা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:id="@+id/btn_7"
-                    android:onClick="C_4"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/jal"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="জাল"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_8"
-                    android:onClick="C_5"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/dal"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_10"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="দাল"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_7"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/sin"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="সিন"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_8"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ja"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="যা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_9"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ra"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="র"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_9"
-                    android:onClick="C_6"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/kha"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_13"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="খ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_10"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/doat"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="দ্বোয়াত"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:id="@+id/btn_10"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_7"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/sin"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_14"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="সিন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_11"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/soad"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_11"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_8"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ja"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ছোয়াদ"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_15"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="যা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_12"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_12"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_9"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/shin"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ra"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="শীন"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="র"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:id="@+id/btn_13"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/doat"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="দ্বোয়াত"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_14"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_11"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/soad"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_16"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="ছোয়াদ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_13"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_15"
-                    android:onClick="C_12"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/aei"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/shin"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="আইন"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_17"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="শীন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_14"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/joa"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="জ্বোয়া"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:id="@+id/btn_16"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_13"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/aei"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_18"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="আইন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_15"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/toa"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_17"
-                    android:onClick="C_14"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/joa"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ত্বোয়া"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="জ্বোয়া"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_18"
-                    android:onClick="C_15"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/toa"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="ত্বোয়া"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
 
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
                 <LinearLayout
-                    android:id="@+id/btn_19"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_16"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/kof"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_19"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="কফ্"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_16"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/kof"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="কফ্"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_20"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_17"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/fa"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ফা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_21"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_18"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/gain"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="গ্বাইন"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_20"
-                    android:onClick="C_17"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/fa"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_22"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="ফা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_19"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_21"
-                    android:onClick="C_18"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/mim"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/gain"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="মীম"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
+                    </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_23"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="গ্বাইন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_20"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/lam"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="লাম"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
-                <LinearLayout
-                    android:id="@+id/btn_22"
-                    android:onClick="C_19"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/mim"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_24"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="মীম"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_21"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_23"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_20"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/lam"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/kaf"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="লাম"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="কাফ"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_24"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_21"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/kaf"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="কাফ"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
 
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="30">
-
                 <LinearLayout
-                    android:id="@+id/btn_25"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_22"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
 
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/ha2"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_25"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="হা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_22"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/ha2"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="হা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_26"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_23"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/wow"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ওয়াও"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_27"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C_24"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/nun"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="নুন"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/btn_26"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_23"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/wow"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="ওয়াও"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/btn_27"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_24"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/nun"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_28"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="নুন"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_25"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/yaa"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="ইয়া"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-            </LinearLayout>
+                    </LinearLayout>
 
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal"
-                android:weightSum="20">
-
-                <LinearLayout
-                    android:id="@+id/btn_28"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:onClick="C_25"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/yaa"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/btn_29"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:text="ইয়া"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:onClick="C_26"
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/btn_29"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:foreground="@drawable/effect"
-                    android:gravity="center"
-                    android:onClick="C_26"
-                    android:orientation="vertical"
-                    android:padding="5dp">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/hamza"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/hamza"
-                        app:civ_border_color="#FFFFFF"
-                        app:civ_border_width="2dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="হামজা"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/kalpurush"
-                        android:gravity="center"
-                        android:text="হামজা"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -1102,9 +1099,16 @@
             </LinearLayout>
 
 
-        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 
-    </ScrollView>
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </RelativeLayout>

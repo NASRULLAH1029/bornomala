@@ -42,7 +42,7 @@ public class kobita_10 extends AppCompatActivity {
 
         setTitle("বোম্বাগড়ের রাজা");
 
-        
+
         facebookAds();
 
     }

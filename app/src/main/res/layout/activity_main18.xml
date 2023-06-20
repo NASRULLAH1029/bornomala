@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity18">
 
     <ScrollView
@@ -68,7 +69,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="দোয়েল-Magpie Robin"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -98,7 +99,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="কাক-Crow"
                         android:textColor="@color/ic_launcher_background"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -143,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="চড়াই-Sparrow"
                         android:textColor="#304FFE"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -173,7 +174,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="টিঁয়া-Parrot"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -216,7 +217,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="পায়রা-Pigeon"
                         android:textColor="#018538"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -245,7 +246,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="হাস-Duck"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -290,7 +291,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="ময়ূর-Peacock"
                         android:textColor="#6200EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -319,7 +320,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="ঘুঘু-Dove"
                         android:textColor="#0091EA"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -365,7 +366,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="মুরগী-Hen"
                         android:textColor="#FFAB00"
                         android:textSize="25sp"
                         android:textStyle="bold" />
@@ -392,7 +393,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/kalpurush"
                         android:gravity="center"
-                        android:text=""
+                        android:text="ঈগল-Egle"
                         android:textColor="#D50000"
                         android:textSize="25sp"
                         android:textStyle="bold" />

@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuInflater;
 import android.view.View;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
@@ -271,7 +272,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
 
 
-
         layout_16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -296,7 +296,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
 
 
-
         layout_18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -307,8 +306,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             }
         });
-
-
 
 
         facebookAds();
@@ -382,7 +379,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-   if (item.getItemId() == R.id.share) {
+        if (item.getItemId() == R.id.share) {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
             String shareBody = "https://play.google.com/store/apps/details?id=com.rubi.bornomala";

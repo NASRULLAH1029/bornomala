@@ -5,15 +5,37 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.facebook.ads.Ad;
+import com.facebook.ads.AdError;
+import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
+import com.facebook.ads.AudienceNetworkAds;
+import com.facebook.ads.InterstitialAd;
+import com.facebook.ads.InterstitialAdListener;
+
 public class MainActivity8 extends AppCompatActivity {
+    private AdView adView;
+    private InterstitialAd interstitialAd;
+    private final String TAG = MainActivity.class.getSimpleName();
+
+    @Override
+    protected void onDestroy() {
+        if (interstitialAd != null) {
+            interstitialAd.destroy();
+        }
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
+    }
 
     LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10;
-
 
 
     @Override
@@ -43,7 +65,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_1.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -54,7 +76,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_2.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -66,7 +88,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_3.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -78,7 +100,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_4.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -90,7 +112,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_5.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -102,7 +124,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_6.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -114,7 +136,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_7.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -126,7 +148,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_8.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -138,7 +160,7 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_9.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
@@ -150,12 +172,69 @@ public class MainActivity8 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity8.this, kobita_10.class);
                 startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
         });
+
+
+        facebookAds();
+
     }
+
+    private void facebookAds() {
+        AudienceNetworkAds.initialize(this);
+
+
+        adView = new AdView(this, "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID", AdSize.BANNER_HEIGHT_50);
+        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+        adContainer.addView(adView);
+        adView.loadAd();
+
+
+        interstitialAd = new InterstitialAd(this, "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID");
+        InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
+            @Override
+            public void onInterstitialDisplayed(Ad ad) {
+                Log.e(TAG, "Interstitial ad displayed.");
+            }
+
+            @Override
+            public void onInterstitialDismissed(Ad ad) {
+                Log.e(TAG, "Interstitial ad dismissed.");
+            }
+
+            @Override
+            public void onError(Ad ad, AdError adError) {
+                Log.e(TAG, "Interstitial ad failed to load: " + adError.getErrorMessage());
+            }
+
+            @Override
+            public void onAdLoaded(Ad ad) {
+                Log.d(TAG, "Interstitial ad is loaded and ready to be displayed!");
+                interstitialAd.show();
+            }
+
+            @Override
+            public void onAdClicked(Ad ad) {
+                Log.d(TAG, "Interstitial ad clicked!");
+            }
+
+            @Override
+            public void onLoggingImpression(Ad ad) {
+                Log.d(TAG, "Interstitial ad impression logged!");
+            }
+        };
+
+        interstitialAd.loadAd(
+                interstitialAd.buildLoadAdConfig()
+                        .withAdListener(interstitialAdListener)
+                        .build());
+
+
+    }
+
 
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == android.R.id.home) {

@@ -92,7 +92,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/kola" />
+                        android:src="@drawable/f2" />
 
 
                     <TextView
@@ -137,7 +137,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/narikel" />
+                        android:src="@drawable/f3" />
 
 
                     <TextView
@@ -167,7 +167,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/komla" />
+                        android:src="@drawable/f4" />
 
 
                     <TextView
@@ -210,7 +210,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/anaros" />
+                        android:src="@drawable/f5" />
 
 
                     <TextView
@@ -239,7 +239,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/pepe" />
+                        android:src="@drawable/f6" />
 
 
                     <TextView
@@ -284,7 +284,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/amm" />
+                        android:src="@drawable/f7" />
 
 
                     <TextView
@@ -313,7 +313,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/pyara" />
+                        android:src="@drawable/f8" />
 
 
                     <TextView
@@ -359,7 +359,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/lebu" />
+                        android:src="@drawable/f9" />
 
 
                     <TextView
@@ -386,7 +386,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/tarmuj" />
+                        android:src="@drawable/f10" />
 
 
                     <TextView

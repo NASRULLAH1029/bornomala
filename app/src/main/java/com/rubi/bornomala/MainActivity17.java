@@ -10,5 +10,8 @@ public class MainActivity17 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main17);
+
+
+        setTitle("ফুৃলের নাম");
     }
 }

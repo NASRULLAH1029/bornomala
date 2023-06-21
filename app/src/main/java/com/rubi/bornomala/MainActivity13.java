@@ -53,13 +53,13 @@ public class MainActivity13 extends AppCompatActivity {
         AudienceNetworkAds.initialize(this);
 
 
-        adView = new AdView(this, "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID", AdSize.BANNER_HEIGHT_50);
+        adView = new AdView(this, "3542537152693641_3542537679360255", AdSize.BANNER_HEIGHT_50);
         LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
         adContainer.addView(adView);
         adView.loadAd();
 
 
-        interstitialAd = new InterstitialAd(this, "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID");
+        interstitialAd = new InterstitialAd(this, "3542537152693641_3542537909360232");
         InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
             @Override
             public void onInterstitialDisplayed(Ad ad) {

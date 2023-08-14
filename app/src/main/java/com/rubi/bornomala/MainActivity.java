@@ -315,14 +315,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void facebookAds() {
         AudienceNetworkAds.initialize(this);
 
-
         adView = new AdView(this, "3542537152693641_3542537679360255", AdSize.BANNER_HEIGHT_50);
         LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
         adContainer.addView(adView);
         adView.loadAd();
-
-
-        interstitialAd = new InterstitialAd(this, "3542537152693641_3542537909360232");
+       interstitialAd = new InterstitialAd(this, "3542537152693641_3542537909360232");
         InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
             @Override
             public void onInterstitialDisplayed(Ad ad) {

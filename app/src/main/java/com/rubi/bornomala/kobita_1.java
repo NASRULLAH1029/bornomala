@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.LinearLayout;
 
 import com.facebook.ads.Ad;
@@ -106,4 +107,6 @@ public class kobita_1 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
+
+
 }

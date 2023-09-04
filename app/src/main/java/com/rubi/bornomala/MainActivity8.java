@@ -63,7 +63,7 @@ public class MainActivity8 extends AppCompatActivity {
         ArrayList<RecipeModel> list = new ArrayList<>();
 
 
-        list.add(new RecipeModel(R.drawable.amar_pon, "প্রাথনা\n-সুফিয়া কামাল"));
+        list.add(new RecipeModel(R.drawable.amar_pon, "প্রার্থনা\n-সুফিয়া কামাল"));
         list.add(new RecipeModel(R.drawable.pic_2, ""));
         list.add(new RecipeModel(R.drawable.pic_3, ""));
         list.add(new RecipeModel(R.drawable.pic_4, ""));

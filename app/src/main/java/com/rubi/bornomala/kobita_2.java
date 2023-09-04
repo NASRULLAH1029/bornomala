@@ -57,7 +57,7 @@ public class kobita_2 extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        
+
 
         playerPosition = findViewById(R.id.player_position);
         playerDuration = findViewById(R.id.player_duration);
@@ -67,7 +67,7 @@ public class kobita_2 extends AppCompatActivity {
         btPause = findViewById(R.id.bt_pause);
         btFf = findViewById(R.id.bt_ff);
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.prarthana);
+        mediaPlayer = MediaPlayer.create(this, R.raw.amar_pon);
 
         runnable = new Runnable() {
             @Override

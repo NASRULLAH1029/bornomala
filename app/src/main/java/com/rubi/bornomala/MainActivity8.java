@@ -63,16 +63,16 @@ public class MainActivity8 extends AppCompatActivity {
         ArrayList<RecipeModel> list = new ArrayList<>();
 
 
-        list.add(new RecipeModel(R.drawable.amar_pon, "প্রার্থনা\n-সুফিয়া কামাল"));
-        list.add(new RecipeModel(R.drawable.pic_2, ""));
-        list.add(new RecipeModel(R.drawable.pic_3, ""));
+        list.add(new RecipeModel(R.drawable.p_1, "প্রার্থনা\n-সুফিয়া কামাল"));
+        list.add(new RecipeModel(R.drawable.amar_pon, "আমার পণ\n-মদনমোহন তর্কালঙ্কার"));
+        /*list.add(new RecipeModel(R.drawable.pic_3, ""));
         list.add(new RecipeModel(R.drawable.pic_4, ""));
         list.add(new RecipeModel(R.drawable.pic_5, ""));
         list.add(new RecipeModel(R.drawable.pic_6, ""));
         list.add(new RecipeModel(R.drawable.pic_7, ""));
         list.add(new RecipeModel(R.drawable.pic_8, ""));
         list.add(new RecipeModel(R.drawable.pic_9, ""));
-        list.add(new RecipeModel(R.drawable.pic_10, ""));
+        list.add(new RecipeModel(R.drawable.pic_10, ""));*/
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);

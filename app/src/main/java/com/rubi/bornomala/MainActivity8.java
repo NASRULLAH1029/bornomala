@@ -2,6 +2,8 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,8 +20,15 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Classes.RecyclerItemClickListener;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity8 extends AppCompatActivity {
+
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -35,7 +44,7 @@ public class MainActivity8 extends AppCompatActivity {
         super.onDestroy();
     }
 
-    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10;
+
 
 
     @Override
@@ -46,137 +55,112 @@ public class MainActivity8 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        setTitle("কবিতা সমূহ");
-
-        layout_1 = (LinearLayout) findViewById(R.id.btn_1);
-        layout_2 = (LinearLayout) findViewById(R.id.btn_2);
-        layout_3 = (LinearLayout) findViewById(R.id.btn_3);
-        layout_4 = (LinearLayout) findViewById(R.id.btn_4);
-        layout_5 = (LinearLayout) findViewById(R.id.btn_5);
-        layout_6 = (LinearLayout) findViewById(R.id.btn_6);
-        layout_7 = (LinearLayout) findViewById(R.id.btn_7);
-        layout_8 = (LinearLayout) findViewById(R.id.btn_8);
-        layout_9 = (LinearLayout) findViewById(R.id.btn_9);
-        layout_10 = (LinearLayout) findViewById(R.id.btn_10);
+        setTitle("মিষ্টি ছাড়া");
 
 
-        layout_1.setOnClickListener(new View.OnClickListener() {
+        recyclerView = findViewById(R.id.recyclerView);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.amar_pon, "প্রাথনা\n-সুফিয়া কামাল"));
+        list.add(new RecipeModel(R.drawable.pic_2, ""));
+        list.add(new RecipeModel(R.drawable.pic_3, ""));
+        list.add(new RecipeModel(R.drawable.pic_4, ""));
+        list.add(new RecipeModel(R.drawable.pic_5, ""));
+        list.add(new RecipeModel(R.drawable.pic_6, ""));
+        list.add(new RecipeModel(R.drawable.pic_7, ""));
+        list.add(new RecipeModel(R.drawable.pic_8, ""));
+        list.add(new RecipeModel(R.drawable.pic_9, ""));
+        list.add(new RecipeModel(R.drawable.pic_10, ""));
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+
+
+        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(
+                this, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_1.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
+            public void onItemClick(View view, int position) {
+                switch (position) {
+                    case 0:
+                        Intent intent = new Intent(MainActivity8.this, kobita_1.class);
+                        startActivity(intent);
+                        break;
+
+                    case 1:
+                        Intent intent1 = new Intent(MainActivity8.this, kobita_2.class);
+                        startActivity(intent1);
+                        break;
+
+                    case 2:
+                        Intent intent2 = new Intent(MainActivity8.this, kobita_3.class);
+                        startActivity(intent2);
+                        break;
+
+
+                    case 3:
+                        Intent intent3 = new Intent(MainActivity8.this, kobita_4.class);
+                        startActivity(intent3);
+                        break;
+
+
+                    case 4:
+                        Intent intent4 = new Intent(MainActivity8.this, kobita_5.class);
+                        startActivity(intent4);
+                        break;
+
+                    case 5:
+                        Intent intent5 = new Intent(MainActivity8.this, kobita_6.class);
+                        startActivity(intent5);
+                        break;
+
+
+                    case 6:
+                        Intent intent6 = new Intent(MainActivity8.this, kobita_7.class);
+                        startActivity(intent6);
+                        break;
+
+
+                    case 7:
+                        Intent intent7 = new Intent(MainActivity8.this, kobita_8.class);
+                        startActivity(intent7);
+                        break;
+
+
+                    case 8:
+                        Intent intent8 = new Intent(MainActivity8.this,kobita_9.class);
+                        startActivity(intent8);
+                        break;
+
+
+                    case 9:
+                        Intent intent9 = new Intent(MainActivity8.this, kobita_10.class);
+                        startActivity(intent9);
+                        break;
+
+
+
+                    default:
+
+
+                }
 
             }
-        });
 
-        layout_2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_2.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
+            public void onLongItemClick(View view, int position) {
 
             }
-        });
+        }
+        ));
 
-
-        layout_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_3.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_4.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_5.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_6.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_7.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_8.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_9.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity8.this, kobita_10.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
 
 
         facebookAds();

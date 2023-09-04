@@ -40,7 +40,7 @@ public class kobita_1 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        setTitle("খোকার গপ্প বলা");
+        setTitle("আমার পণ");
         facebookAds();
 
     }

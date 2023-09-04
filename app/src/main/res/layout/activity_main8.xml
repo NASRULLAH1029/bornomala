@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00C853"
     android:orientation="vertical"
     tools:context=".MainActivity8">
 
@@ -13,248 +12,16 @@
         android:layout_height="match_parent"
         android:layout_above="@id/banner_container">
 
-        <ScrollView
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            tools:listitem="@layout/recycle_item"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+            />
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="20">
-
-                    <LinearLayout
-                        android:id="@+id/btn_1"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/amar_pon" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_2"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_2" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal"
-                    android:weightSum="20">
-
-                    <LinearLayout
-                        android:id="@+id/btn_3"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_3" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_4"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_4" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal"
-                    android:weightSum="20">
-
-                    <LinearLayout
-                        android:id="@+id/btn_5"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_5" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_6"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_6" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal"
-                    android:weightSum="20">
-
-
-                    <LinearLayout
-                        android:id="@+id/btn_7"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_7" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_8"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_8" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal"
-                    android:weightSum="20">
-
-                    <LinearLayout
-                        android:id="@+id/btn_9"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_9" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_10"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="150dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/pic_10" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </ScrollView>
 
     </LinearLayout>
 
@@ -268,4 +35,4 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
 
-</LinearLayout>
+</RelativeLayout>

@@ -41,7 +41,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a2" />
@@ -60,7 +60,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a1" />
@@ -79,7 +79,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a3" />
@@ -107,7 +107,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a4" />
@@ -126,7 +126,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a5" />
@@ -145,7 +145,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a6" />
@@ -174,7 +174,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a7" />
@@ -193,7 +193,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a8" />
@@ -212,7 +212,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a9" />
@@ -241,7 +241,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a10" />
@@ -259,7 +259,7 @@
                         android:orientation="vertical"
                         android:padding="5dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/a11" />

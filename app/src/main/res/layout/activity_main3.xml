@@ -33,7 +33,7 @@
                     android:layout_gravity="fill"
                     android:layout_margin="5dp"
                     android:onClick="C1"
-                    android:src="@drawable/a2" />
+                    android:src="@drawable/a1" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -43,8 +43,7 @@
                     android:layout_gravity="fill"
                     android:layout_margin="5dp"
                     android:onClick="C2"
-                    android:src="@drawable/a1" />
-
+                    android:src="@drawable/a2" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -74,7 +73,7 @@
                     android:layout_gravity="fill"
                     android:layout_margin="5dp"
                     android:onClick="C5"
-                    android:src="@drawable/a5" />
+                    android:src="@drawable/k_50" />
 
                 <ImageView
                     android:layout_width="100dp"

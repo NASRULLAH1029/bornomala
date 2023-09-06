@@ -53,7 +53,6 @@ public class kobita_6 extends AppCompatActivity {
         setContentView(R.layout.activity_kobita6);
 
 
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
@@ -66,7 +65,7 @@ public class kobita_6 extends AppCompatActivity {
         btPause = findViewById(R.id.bt_pause);
         btFf = findViewById(R.id.bt_ff);
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.amar_pon);
+        mediaPlayer = MediaPlayer.create(this, R.raw.gggg);
 
         runnable = new Runnable() {
             @Override

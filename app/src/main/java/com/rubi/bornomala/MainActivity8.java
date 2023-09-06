@@ -66,11 +66,11 @@ public class MainActivity8 extends AppCompatActivity {
         list.add(new RecipeModel(R.drawable.p_1, "প্রার্থনা\n-সুফিয়া কামাল"));
         list.add(new RecipeModel(R.drawable.amar_pon, "আমার পণ\n-মদনমোহন তর্কালঙ্কার"));
         list.add(new RecipeModel(R.drawable.pic_3, "শিশুর পণ\n-গোলাম মোস্তফা"));
-       list.add(new RecipeModel(R.drawable.mamar_bari, "মামার বাড়ি\n- জসীমউদ্দীন"));
-         /*list.add(new RecipeModel(R.drawable.pic_5, ""));
-        list.add(new RecipeModel(R.drawable.pic_6, ""));
-        list.add(new RecipeModel(R.drawable.pic_7, ""));
-        list.add(new RecipeModel(R.drawable.pic_8, ""));
+       list.add(new RecipeModel(R.drawable.mamar_bari, "মামার বাড়ি\n-জসীমউদ্দীন"));
+         list.add(new RecipeModel(R.drawable.gff, "চাঁদ উঠেছে\n -প্রচলিত"));
+        list.add(new RecipeModel(R.drawable.fd, "আয় রে আয় টিয়ে\n-প্রচলিত"));
+        list.add(new RecipeModel(R.drawable.ffff, "তোতা পাখি\n -প্রচলিত"));
+        /*list.add(new RecipeModel(R.drawable.pic_8, ""));
         list.add(new RecipeModel(R.drawable.pic_9, ""));
         list.add(new RecipeModel(R.drawable.pic_10, ""));*/
 

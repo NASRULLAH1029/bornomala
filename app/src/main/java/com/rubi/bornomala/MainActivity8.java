@@ -58,7 +58,7 @@ public class MainActivity8 extends AppCompatActivity {
         setTitle("মিষ্টি ছাড়া");
 
 
-        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.recyclerView_2);
 
         ArrayList<RecipeModel> list = new ArrayList<>();
 

@@ -24,7 +24,7 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/logo" />
 
@@ -38,7 +38,7 @@
                 android:gravity="center"
                 android:text="Food Lover"
                 android:textColor="@color/sada"
-                android:textSize="18sp"/>
+                android:textSize="20sp"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

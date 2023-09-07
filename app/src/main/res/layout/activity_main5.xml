@@ -470,7 +470,8 @@
 
                 </LinearLayout>
 
-                <LinearLayout                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="horizontal"
@@ -1643,7 +1644,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_75" />
 
                     </LinearLayout>
 
@@ -1660,7 +1661,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_76" />
 
 
                     </LinearLayout>
@@ -1678,7 +1679,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_77" />
 
 
                     </LinearLayout>
@@ -1707,7 +1708,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_78" />
 
                     </LinearLayout>
 
@@ -1724,7 +1725,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_79" />
 
 
                     </LinearLayout>
@@ -1742,7 +1743,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_80" />
 
 
                     </LinearLayout>
@@ -1771,7 +1772,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_81" />
 
                     </LinearLayout>
 
@@ -1788,7 +1789,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_82" />
 
 
                     </LinearLayout>
@@ -1806,7 +1807,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_83" />
 
 
                     </LinearLayout>
@@ -1835,7 +1836,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_84" />
 
                     </LinearLayout>
 
@@ -1852,7 +1853,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_85" />
 
 
                     </LinearLayout>
@@ -1870,7 +1871,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_86" />
 
 
                     </LinearLayout>
@@ -1899,7 +1900,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_87" />
 
                     </LinearLayout>
 
@@ -1916,7 +1917,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_88" />
 
 
                     </LinearLayout>
@@ -1934,7 +1935,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_89" />
 
 
                     </LinearLayout>
@@ -1963,7 +1964,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_90" />
 
                     </LinearLayout>
 
@@ -1980,7 +1981,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_91" />
 
 
                     </LinearLayout>
@@ -1998,7 +1999,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_92" />
 
 
                     </LinearLayout>
@@ -2027,7 +2028,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_93" />
 
                     </LinearLayout>
 
@@ -2044,7 +2045,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_94" />
 
 
                     </LinearLayout>
@@ -2062,7 +2063,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_95" />
 
 
                     </LinearLayout>
@@ -2091,7 +2092,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_96" />
 
                     </LinearLayout>
 
@@ -2108,7 +2109,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_97" />
 
 
                     </LinearLayout>
@@ -2126,7 +2127,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_98" />
 
 
                     </LinearLayout>
@@ -2139,7 +2140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="horizontal"
-                    android:weightSum="30">
+                    android:weightSum="20">
 
                     <LinearLayout
 
@@ -2155,7 +2156,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_99" />
 
                     </LinearLayout>
 
@@ -2172,414 +2173,11 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_100" />
 
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C37"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C39"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
-
-
-                    </LinearLayout>
-
-
+                    
                 </LinearLayout>
 
 

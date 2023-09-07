@@ -17,12 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -32,7 +30,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_1"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -40,71 +38,47 @@
                         android:gravity="center"
                         android:onClick="C1"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C2"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C3"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/" />
 
 
                     </LinearLayout>
@@ -120,7 +94,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_4"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -128,68 +102,47 @@
                         android:gravity="center"
                         android:onClick="C4"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C5"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_5" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_6"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C6"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_6" />
 
 
                     </LinearLayout>
@@ -205,7 +158,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_7"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -213,68 +166,47 @@
                         android:gravity="center"
                         android:onClick="C7"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_7" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_8"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C8"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_8" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_9"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C9"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_9" />
 
 
                     </LinearLayout>
@@ -290,7 +222,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_10"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -298,74 +230,51 @@
                         android:gravity="center"
                         android:onClick="C10"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_10" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_11"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C11"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_11" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_12"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C12"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_12" />
 
 
                     </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -377,7 +286,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_13"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -385,68 +294,47 @@
                         android:gravity="center"
                         android:onClick="C13"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_13" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_14"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C14"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_14" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_15"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C15"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_15" />
 
 
                     </LinearLayout>
@@ -462,7 +350,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_16"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -470,68 +358,47 @@
                         android:gravity="center"
                         android:onClick="C16"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_16" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_17"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C17"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_17" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_18"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C18"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_18" />
 
 
                     </LinearLayout>
@@ -547,7 +414,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_19"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -555,68 +422,47 @@
                         android:gravity="center"
                         android:onClick="C19"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
+                            android:src="@drawable/k_19" />
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_20"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C20"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_20" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_21"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C21"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_21" />
 
 
                     </LinearLayout>
@@ -632,7 +478,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_22"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -640,68 +486,47 @@
                         android:gravity="center"
                         android:onClick="C22"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_22" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_23"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C23"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_23" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_24"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C24"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_24" />
 
 
                     </LinearLayout>
@@ -717,7 +542,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_25"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -725,68 +550,47 @@
                         android:gravity="center"
                         android:onClick="C25"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_25" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_26"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C26"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_26" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_27"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C27"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_27" />
 
 
                     </LinearLayout>
@@ -802,7 +606,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_28"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -810,68 +614,47 @@
                         android:gravity="center"
                         android:onClick="C28"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_28" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_29"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C29"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="২৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_29" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_30"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C30"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_30" />
 
 
                     </LinearLayout>
@@ -887,7 +670,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_31"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -895,68 +678,48 @@
                         android:gravity="center"
                         android:onClick="C31"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_31" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_32"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C32"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_32" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_33"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C33"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_33" />
 
 
                     </LinearLayout>
@@ -972,7 +735,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_34"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -980,68 +743,47 @@
                         android:gravity="center"
                         android:onClick="C34"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_34" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_35"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C35"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_35" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_36"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C36"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_36" />
 
 
                     </LinearLayout>
@@ -1057,7 +799,7 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_37"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
@@ -1065,498 +807,47 @@
                         android:gravity="center"
                         android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
+                            android:src="@drawable/k_37" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_38"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C38"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_39"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
                         android:onClick="C39"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৩৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-                        android:id="@+id/btn_40"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C40"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_41"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C41"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_42"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C42"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-                        android:id="@+id/btn_43"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C43"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_44"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C44"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_45"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C45"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-                        android:id="@+id/btn_46"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C46"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_47"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C47"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_48"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C48"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-                        android:id="@+id/btn_49"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C49"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৪৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_50"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C50"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_51"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C51"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="30">
-
-                    <LinearLayout
-                        android:id="@+id/btn_52"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C52"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_53"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C53"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_54"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C54"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1572,76 +863,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_55"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C55"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_56"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C56"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_57"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C57"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1657,76 +927,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_58"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C58"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_59"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C59"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৫৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_60"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C60"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1742,76 +991,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_61"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C61"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_62"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C62"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_63"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C63"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1827,76 +1055,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_64"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C64"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_65"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C65"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_66"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C66"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1912,76 +1119,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_67"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C67"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_68"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C68"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_69"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C69"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৬৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -1997,76 +1183,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_70"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C70"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_71"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C71"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_72"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C72"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2082,76 +1247,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_73"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C73"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_74"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C74"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_75"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C75"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2167,76 +1311,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_76"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C76"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_77"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C77"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_78"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C78"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৮"
-                            android:textColor="@color/black"
-                            android:textSize="60sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2252,76 +1375,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_79"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C79"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৭৯"
-                            android:textColor="@color/black"
-                            android:textSize="60sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_80"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C80"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_81"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C81"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2337,76 +1439,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_82"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C82"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_83"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C83"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_84"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C84"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2422,76 +1503,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_85"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C85"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_86"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C86"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_87"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C87"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2507,76 +1567,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_88"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C88"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_89"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C89"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৮৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_90"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C90"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2592,76 +1631,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_91"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C91"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯১"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_92"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C92"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯২"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_93"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C93"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৩"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2677,76 +1695,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_94"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C94"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৪"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_95"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C95"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৫"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_96"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C96"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৬"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2762,76 +1759,55 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_97"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C97"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৭"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
 
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/btn_98"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C98"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:onClick="C39"
+                        android:orientation="vertical">
 
-                        <TextView
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৮"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_99"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C99"
-                        android:orientation="vertical"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="৯৯"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2847,26 +1823,759 @@
                     android:weightSum="30">
 
                     <LinearLayout
-                        android:id="@+id/btn_100"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C100"
+                        android:onClick="C37"
                         android:orientation="vertical"
-                        android:padding="5dp">
+                        android:padding="10dp">
 
-                        <TextView
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"
-                            android:background="@drawable/circle_colored"
-                            android:fontFamily="@font/kalpurush"
-                            android:gravity="center"
-                            android:text="১০০"
-                            android:textColor="@color/black"
-                            android:textSize="80sp"
-                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C37"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_37" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C38"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_38" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C39"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/k_39" />
 
 
                     </LinearLayout>
@@ -2877,8 +2586,8 @@
 
             </LinearLayout>
 
-        </ScrollView>
 
+        </ScrollView>
     </LinearLayout>
 
 

@@ -869,7 +869,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C40"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -887,7 +887,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C41"
                         android:orientation="vertical">
 
                         <ImageView
@@ -905,7 +905,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C42"
                         android:orientation="vertical">
 
                         <ImageView
@@ -933,7 +933,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C43"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -951,7 +951,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C44"
                         android:orientation="vertical">
 
                         <ImageView
@@ -969,7 +969,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C45"
                         android:orientation="vertical">
 
                         <ImageView
@@ -997,7 +997,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C46"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1015,7 +1015,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C47"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1033,7 +1033,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C48"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1061,7 +1061,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C49"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1079,7 +1079,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C50"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1097,7 +1097,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C51"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1125,7 +1125,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C52"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1143,7 +1143,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C53"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1161,7 +1161,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C54"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1189,7 +1189,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C55"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1207,7 +1207,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C56"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1225,7 +1225,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C57"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1253,7 +1253,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C58"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1271,7 +1271,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C59"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1289,7 +1289,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C60"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1317,7 +1317,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C61"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -1335,7 +1335,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C38"
+                        android:onClick="C62"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1353,13 +1353,13 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C63"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_62" />
+                            android:src="@drawable/b_63" />
 
 
                     </LinearLayout>
@@ -1381,33 +1381,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C64"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_63" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_64" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1417,7 +1399,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C65"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1428,6 +1410,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C66"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_66" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1445,33 +1445,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C67"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_66" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_67" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1481,7 +1463,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C68"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1492,6 +1474,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C69"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_69" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1509,33 +1509,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C70"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_69" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_70" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1545,7 +1527,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C71"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1556,6 +1538,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C72"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_72" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1573,33 +1573,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C73"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_72" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_73" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1609,7 +1591,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C74"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1620,6 +1602,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C75"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_75" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1637,33 +1637,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C76"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_75" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_76" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1673,7 +1655,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C77"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1684,6 +1666,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C78"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_78" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1701,33 +1701,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C79"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_78" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_79" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1737,7 +1719,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C80"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1748,6 +1730,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C81"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_81" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1765,33 +1765,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C82"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_81" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_82" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1801,7 +1783,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C83"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1812,6 +1794,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C84"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_84" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1829,33 +1829,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C85"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_84" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_85" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1865,7 +1847,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C86"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1876,6 +1858,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C87"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_87" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1893,33 +1893,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C88"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_87" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_88" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1929,7 +1911,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C89"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1940,6 +1922,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C90"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_90" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -1957,33 +1957,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C91"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_90" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_91" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -1993,7 +1975,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C92"
                         android:orientation="vertical">
 
                         <ImageView
@@ -2004,6 +1986,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C93"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_93" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -2021,33 +2021,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C94"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_93" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_94" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -2057,7 +2039,7 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C95"
                         android:orientation="vertical">
 
                         <ImageView
@@ -2068,6 +2050,24 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C96"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_96" />
+
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -2085,33 +2085,15 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C97"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_96" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_97" />
 
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -2121,13 +2103,31 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C39"
+                        android:onClick="C98"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/b_98" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:onClick="C99"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/b_99" />
 
 
                     </LinearLayout>
@@ -2140,7 +2140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="horizontal"
-                    android:weightSum="20">
+                    android:weightSum="10">
 
                     <LinearLayout
 
@@ -2149,32 +2149,14 @@
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
-                        android:onClick="C37"
+                        android:onClick="C100"
                         android:orientation="vertical"
                         android:padding="10dp">
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_99" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="10"
-                        android:foreground="@drawable/effect"
-                        android:gravity="center"
-                        android:onClick="C38"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
                             android:src="@drawable/b_100" />
-
 
                     </LinearLayout>
 

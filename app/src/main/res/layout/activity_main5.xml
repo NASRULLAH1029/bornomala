@@ -314,7 +314,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="100dp"
+                            android:layout_width="80dp"
                             android:layout_height="100dp"
                             android:src="@drawable/b_14" />
 
@@ -470,8 +470,7 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <LinearLayout                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:orientation="horizontal"
@@ -1103,7 +1102,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_51" />
 
 
                     </LinearLayout>
@@ -1132,7 +1131,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_52" />
 
                     </LinearLayout>
 
@@ -1149,7 +1148,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_53" />
 
 
                     </LinearLayout>
@@ -1167,7 +1166,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_54" />
 
 
                     </LinearLayout>
@@ -1196,7 +1195,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_55" />
 
                     </LinearLayout>
 
@@ -1213,7 +1212,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_56" />
 
 
                     </LinearLayout>
@@ -1231,7 +1230,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_57" />
 
 
                     </LinearLayout>
@@ -1260,7 +1259,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_58" />
 
                     </LinearLayout>
 
@@ -1277,7 +1276,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_59" />
 
 
                     </LinearLayout>
@@ -1295,7 +1294,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_60" />
 
 
                     </LinearLayout>
@@ -1324,7 +1323,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_61" />
 
                     </LinearLayout>
 
@@ -1341,7 +1340,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_62" />
 
 
                     </LinearLayout>
@@ -1359,7 +1358,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_62" />
 
 
                     </LinearLayout>
@@ -1388,7 +1387,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_63" />
 
                     </LinearLayout>
 
@@ -1405,7 +1404,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_64" />
 
 
                     </LinearLayout>
@@ -1423,7 +1422,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_65" />
 
 
                     </LinearLayout>
@@ -1452,7 +1451,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_66" />
 
                     </LinearLayout>
 
@@ -1469,7 +1468,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_67" />
 
 
                     </LinearLayout>
@@ -1487,7 +1486,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_68" />
 
 
                     </LinearLayout>
@@ -1516,7 +1515,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_69" />
 
                     </LinearLayout>
 
@@ -1533,7 +1532,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_70" />
 
 
                     </LinearLayout>
@@ -1551,7 +1550,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_71" />
 
 
                     </LinearLayout>
@@ -1580,7 +1579,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_37" />
+                            android:src="@drawable/b_72" />
 
                     </LinearLayout>
 
@@ -1597,7 +1596,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_38" />
+                            android:src="@drawable/b_73" />
 
 
                     </LinearLayout>
@@ -1615,7 +1614,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/k_39" />
+                            android:src="@drawable/b_74" />
 
 
                     </LinearLayout>

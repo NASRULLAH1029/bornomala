@@ -2126,7 +2126,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_98" />
+                            android:src="@drawable/c_98" />
 
 
                     </LinearLayout>
@@ -2155,7 +2155,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_99" />
+                            android:src="@drawable/c_99" />
 
                     </LinearLayout>
 
@@ -2172,7 +2172,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/b_100" />
+                            android:src="@drawable/c_100" />
 
 
                     </LinearLayout>

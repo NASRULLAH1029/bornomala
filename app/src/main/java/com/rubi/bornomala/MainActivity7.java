@@ -148,7 +148,7 @@ public class MainActivity7 extends AppCompatActivity {
     }
 
     public void C10(View view) {
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.bn_10);
+        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.num10);
         mediaPlayer.start();
     }
 

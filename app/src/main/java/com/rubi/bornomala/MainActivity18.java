@@ -2,6 +2,8 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,8 +17,13 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity18 extends AppCompatActivity {
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -32,17 +39,42 @@ public class MainActivity18 extends AppCompatActivity {
         super.onDestroy();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main18);
 
-
-        setTitle("পাখির নাম");
-
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
+        recyclerView = findViewById(R.id.recyclerView_2);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.p1, "দোয়েল - Magpie Robin"));
+        list.add(new RecipeModel(R.drawable.p2, "কাক - Crow"));
+        list.add(new RecipeModel(R.drawable.p3, "চড়াই - Sparrow"));
+        list.add(new RecipeModel(R.drawable.p4, "টিঁয়া - Parrot"));
+        list.add(new RecipeModel(R.drawable.p5, "পায়রা - Pigeon"));
+        list.add(new RecipeModel(R.drawable.p6, "হাস - Duck"));
+        list.add(new RecipeModel(R.drawable.p7, "ময়ূর - Peacock"));
+        list.add(new RecipeModel(R.drawable.p8, "ঘুঘু - Dove"));
+        list.add(new RecipeModel(R.drawable.p9, "মুরগী - Hen"));
+        list.add(new RecipeModel(R.drawable.p10, "ঈগল - Egle"));
+
+
+
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
 
 
         facebookAds();
@@ -97,6 +129,7 @@ public class MainActivity18 extends AppCompatActivity {
                 interstitialAd.buildLoadAdConfig()
                         .withAdListener(interstitialAdListener)
                         .build());
+
 
     }
 

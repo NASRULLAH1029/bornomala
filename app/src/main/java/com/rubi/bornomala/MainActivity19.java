@@ -2,6 +2,8 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,9 +17,13 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity19 extends AppCompatActivity {
-
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -33,14 +39,42 @@ public class MainActivity19 extends AppCompatActivity {
         super.onDestroy();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main19);
 
-        setTitle("পশুর নাম");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
+        recyclerView = findViewById(R.id.recyclerView_2);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.k1, "গরু - Cow"));
+        list.add(new RecipeModel(R.drawable.k2, "ছাগল - Goat"));
+        list.add(new RecipeModel(R.drawable.k3, "বিড়াল - Cat"));
+        list.add(new RecipeModel(R.drawable.k4, "হাতি - Elephant"));
+        list.add(new RecipeModel(R.drawable.k5, "হরিণ - Deer"));
+        list.add(new RecipeModel(R.drawable.k6, "সিংহ - Lion"));
+        list.add(new RecipeModel(R.drawable.k7, "ঘোড়া - Horse"));
+        list.add(new RecipeModel(R.drawable.k8, "বানর - Monkey"));
+        list.add(new RecipeModel(R.drawable.k9, "ভালুক - Bear"));
+        list.add(new RecipeModel(R.drawable.k10, "Rabbit - খরগোশ"));
+
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+
         facebookAds();
 
     }

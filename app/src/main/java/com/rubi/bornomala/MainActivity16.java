@@ -2,6 +2,8 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,8 +17,13 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity16 extends AppCompatActivity {
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -32,14 +39,42 @@ public class MainActivity16 extends AppCompatActivity {
         super.onDestroy();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main16);
 
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
+        recyclerView = findViewById(R.id.recyclerView_2);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.appel, "আপেল - Apple"));
+        list.add(new RecipeModel(R.drawable.kola, "কলা – Banana"));
+        list.add(new RecipeModel(R.drawable.narikel, "নারকেল - Coconut"));
+        list.add(new RecipeModel(R.drawable.komla, "কমলা – Orange"));
+        list.add(new RecipeModel(R.drawable.anaros, "আনারস - Pineapple"));
+        list.add(new RecipeModel(R.drawable.pepe, "পেঁপে - Papaya"));
+        list.add(new RecipeModel(R.drawable.amm, "আম - Mango"));
+        list.add(new RecipeModel(R.drawable.pyara, "পেয়ারা  -Guava"));
+        list.add(new RecipeModel(R.drawable.lebu, "লেবু - Lemon"));
+        list.add(new RecipeModel(R.drawable.tarmuj, "তরমুজ - Watermelon"));
+
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+
         facebookAds();
 
     }

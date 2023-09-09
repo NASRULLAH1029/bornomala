@@ -2,6 +2,8 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,8 +17,13 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity17 extends AppCompatActivity {
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -32,15 +39,43 @@ public class MainActivity17 extends AppCompatActivity {
         super.onDestroy();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main17);
+        setContentView(R.layout.activity_main16);
 
-
-        setTitle("ফুৃলের নাম");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
+        recyclerView = findViewById(R.id.recyclerView_2);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.surjo, "সূর্যমুখী — SUNFLOWER"));
+        list.add(new RecipeModel(R.drawable.f2, "চম্পা – PLUMERIA"));
+        list.add(new RecipeModel(R.drawable.f3, "বনফুল - PANSY"));
+        list.add(new RecipeModel(R.drawable.f4, "পোস্তা – POPPY"));
+        list.add(new RecipeModel(R.drawable.f5, "তারক ফুল - ASTER"));
+        list.add(new RecipeModel(R.drawable.f6, "শাপলা - LOTUS"));
+        list.add(new RecipeModel(R.drawable.f7, "নার্গিস - DAFFODIL"));
+        list.add(new RecipeModel(R.drawable.f8, "গোলাপ - ROSE"));
+        list.add(new RecipeModel(R.drawable.f9, "গুলমোহর - DELONIX REGIA"));
+        list.add(new RecipeModel(R.drawable.f10, "কচনার - BAUHINIA"));
+
+
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+
         facebookAds();
 
     }

@@ -71,8 +71,8 @@ public class MainActivity8 extends AppCompatActivity {
         list.add(new RecipeModel(R.drawable.fd, "আয় রে আয় টিয়ে\n-প্রচলিত"));
         list.add(new RecipeModel(R.drawable.ffff, "তোতা পাখি\n -প্রচলিত"));
         list.add(new RecipeModel(R.drawable.hqdefault, "কাজলা দিদি\n-যতীন্দ্রমোহন বাগচী"));
-        list.add(new RecipeModel(R.drawable.pic_9, "কানা বগীর ছা\n–খান মুহম্মদ মঈনুদ্দীন"));
-        /*list.add(new RecipeModel(R.drawable.pic_10, ""));*/
+        list.add(new RecipeModel(R.drawable.tal, "কানা বগীর ছা\n–খান মুহম্মদ মঈনুদ্দীন"));
+        list.add(new RecipeModel(R.drawable.gol, "ছোটন ঘুমায়\n-সুফিয়া কামাল"));
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);

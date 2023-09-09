@@ -66,7 +66,7 @@ public class kobita_10 extends AppCompatActivity {
         btPause = findViewById(R.id.bt_pause);
         btFf = findViewById(R.id.bt_ff);
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.amar_pon);
+        mediaPlayer = MediaPlayer.create(this, R.raw.gol);
 
         runnable = new Runnable() {
             @Override

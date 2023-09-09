@@ -23,27 +23,16 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/two_color"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
                     android:text="ইংরেজী ১২ মাসের নাম"
-                    android:textColor="#D50000"
-                    android:textSize="40sp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
-
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -64,19 +53,18 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g1"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g1" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="January-জানুয়ারী"
                             android:textColor="@color/black"
@@ -97,13 +85,12 @@
                         android:onClick="b2"
                         android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g2"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -121,11 +108,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -145,18 +127,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g3"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g3" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="March-মার্চ"
                             android:textColor="#304FFE"
@@ -177,18 +158,17 @@
                         android:onClick="b4"
                         android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g4"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g4" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="April-এপ্রিল"
                             android:textColor="#6200EA"
@@ -200,11 +180,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -223,18 +198,17 @@
                         android:onClick="b5"
                         android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g5"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g5" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="May-মে"
                             android:textColor="#018538"
@@ -256,18 +230,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g6"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g6" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="June-জুন"
                             android:textColor="#D50000"
@@ -279,12 +252,6 @@
 
 
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
 
                 <LinearLayout
@@ -305,18 +272,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g7"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g7" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="July-জুলাই"
                             android:textColor="#6200EA"
@@ -338,18 +304,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g8"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g8" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="August-আগষ্ট"
                             android:textColor="#0091EA"
@@ -361,12 +326,6 @@
 
 
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
 
                 <LinearLayout
@@ -387,18 +346,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g9"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g9" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="September-সেপ্টেম্বর"
                             android:textColor="#FFAB00"
@@ -420,18 +378,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g10"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g10" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="October-অক্টোবর"
                             android:textColor="#D50000"
@@ -444,11 +401,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -468,18 +420,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g11"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g11" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="November-নভেম্বর"
                             android:textColor="#018538"
@@ -501,18 +452,17 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginTop="10dp"
-                            android:src="@drawable/g12"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/g12" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:gravity="center"
                             android:text="December-ডিসেম্বর"
                             android:textColor="#C51162"
@@ -525,11 +475,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
             </LinearLayout>
 
         </ScrollView>

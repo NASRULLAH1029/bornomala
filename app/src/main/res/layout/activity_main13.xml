@@ -24,32 +24,19 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/two_color"
                     android:fontFamily="@font/kalpurush"
                     android:gravity="center"
-                    android:scaleType="fitXY"
                     android:text="ইংরেজী ছয় ঋতুর নাম"
-                    android:textColor="@color/ic_launcher_background"
-                    android:textSize="40sp"
+                    android:textColor="@color/sada"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
 
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:orientation="horizontal"
                     android:weightSum="20">
 
@@ -65,19 +52,19 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/gr_1"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_1" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="SUMMER"
                             android:textColor="@color/black"
                             android:textSize="25sp"
@@ -97,18 +84,18 @@
                         android:onClick="b2"
                         android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/g2"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_2" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="RAINY"
                             android:textColor="@color/ic_launcher_background"
                             android:textSize="25sp"
@@ -120,11 +107,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -143,19 +125,18 @@
                         android:onClick="b3"
                         android:orientation="vertical">
 
-
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/gr_3"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_3" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="AUTUMN"
                             android:textColor="#304FFE"
                             android:textSize="25sp"
@@ -175,18 +156,19 @@
                         android:onClick="b4"
                         android:orientation="vertical">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/gr_4"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_4" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="LATE AUTUMN"
                             android:textColor="#6200EA"
                             android:textSize="25sp"
@@ -197,11 +179,6 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -221,18 +198,18 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/gr_5"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_5" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="WINTER"
                             android:textColor="#018538"
                             android:textSize="25sp"
@@ -253,21 +230,21 @@
                         android:orientation="vertical">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/gr_6"
-                            app:civ_border_color="#FFFFFF"
-                            app:civ_border_width="2dp" />
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gr_6" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="SPRING"
                             android:textColor="#D50000"
-                            android:textSize="25sp"
+                            android:textSize="30sp"
                             android:textStyle="bold" />
 
 
@@ -276,16 +253,11 @@
 
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#868888" />
-
 
             </LinearLayout>
 
         </ScrollView>
+
 
     </LinearLayout>
 
@@ -299,3 +271,5 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </RelativeLayout>
+
+

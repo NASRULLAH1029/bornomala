@@ -60,7 +60,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="গ্রীষ্মকাল"
                             android:textColor="@color/black"
                             android:textSize="25sp"
@@ -91,7 +91,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="বর্ষাকাল"
                             android:textColor="@color/ic_launcher_background"
                             android:textSize="25sp"
@@ -132,7 +132,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="শরৎকাল"
                             android:textColor="#304FFE"
                             android:textSize="25sp"
@@ -164,7 +164,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="হেমন্তকাল"
                             android:textColor="#6200EA"
                             android:textSize="25sp"
@@ -205,7 +205,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="শীতকাল"
                             android:textColor="#018538"
                             android:textSize="25sp"
@@ -225,7 +225,7 @@
                         android:onClick="b6"
                         android:orientation="vertical">
 
-                        
+
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
@@ -237,7 +237,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/kalpurush"
+                            android:fontFamily="@font/regular"
                             android:text="বসন্তকাল"
                             android:textColor="#D50000"
                             android:textSize="30sp"

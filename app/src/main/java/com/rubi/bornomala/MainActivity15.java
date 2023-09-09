@@ -59,15 +59,39 @@ public class MainActivity15 extends AppCompatActivity {
 
 
         list.add(new RecipeModel(R.drawable.alu, "আলু - Potato "));
-        list.add(new RecipeModel(R.drawable.carrots, "Carrots"));
-        list.add(new RecipeModel(R.drawable.cucumber, "Cucumber"));
-        list.add(new RecipeModel(R.drawable.brinjal, "Brinjal"));
-        list.add(new RecipeModel(R.drawable.ladiesfinger, "Ladies finger"));
-        list.add(new RecipeModel(R.drawable.peas, "Peas"));
-        list.add(new RecipeModel(R.drawable.radish, "Radish"));
-        list.add(new RecipeModel(R.drawable.turnip, "Turnip"));
-        list.add(new RecipeModel(R.drawable.bittergourd, "Bitter gourd"));
-        list.add(new RecipeModel(R.drawable.mushroom, "Mushroom"));
+        list.add(new RecipeModel(R.drawable.carrots, "গাজর - Carrots"));
+        list.add(new RecipeModel(R.drawable.cucumber, "শসা - Cucumber"));
+        list.add(new RecipeModel(R.drawable.brinjal, "বেগুন - Brinjal"));
+        list.add(new RecipeModel(R.drawable.ladiesfinger, "ঢেঁড়স - Ladies finger"));
+        list.add(new RecipeModel(R.drawable.peas, "মটরশুটি - Peas"));
+        list.add(new RecipeModel(R.drawable.radish, "মূলা - Radish"));
+        list.add(new RecipeModel(R.drawable.turnip, "শালগম - Turnip"));
+        list.add(new RecipeModel(R.drawable.bittergourd, "করলা - Bitter gourd"));
+        list.add(new RecipeModel(R.drawable.mushroom, "মাশরুম - Mushroom"));
+        list.add(new RecipeModel(R.drawable.basil, "পুঁইশাক - basil"));
+        list.add(new RecipeModel(R.drawable.broccoli, "ব্রোকলি - broccoli"));
+        list.add(new RecipeModel(R.drawable.capsicum, "ক্যাপসিকাম - capsicum"));
+        list.add(new RecipeModel(R.drawable.cauliflower, "ফুলকপি - cauliflower"));
+        list.add(new RecipeModel(R.drawable.coriander_leaves, "ধনে পাতা - coriander leaves"));
+        list.add(new RecipeModel(R.drawable.corn, "ভুট্টা - corn"));
+        list.add(new RecipeModel(R.drawable.drumstick, "সজনে পাতা - drumstick"));
+        list.add(new RecipeModel(R.drawable.garlic, "রসুন - garlic"));
+        list.add(new RecipeModel(R.drawable.ginger, "আদা - ginger"));
+        list.add(new RecipeModel(R.drawable.mint_leaves, "পুদিনা পাতা - mint leaves"));
+        list.add(new RecipeModel(R.drawable.mustard_leaves, "সরিষার পাতা - mustar leaves"));
+        list.add(new RecipeModel(R.drawable.onion, "পেঁয়াজ - onion"));
+        list.add(new RecipeModel(R.drawable.palwal, "পটল - palwal"));
+        list.add(new RecipeModel(R.drawable.papaya, "পেঁপে - papaya"));
+        list.add(new RecipeModel(R.drawable.pumpkin, "কুমড়া - pumpkin"));
+        list.add(new RecipeModel(R.drawable.red_chili, "লাল মরিচ - red chili"));
+        list.add(new RecipeModel(R.drawable.red_leafy, "লালশাক - red leafy"));
+        list.add(new RecipeModel(R.drawable.ridge_gourd, "ঝিঙ্গে - ridge gourd"));
+        list.add(new RecipeModel(R.drawable.snake_gourd, "চিচিঙ্গা - snake gourd"));
+        list.add(new RecipeModel(R.drawable.spinach, "পালংশাক - spinach"));
+        list.add(new RecipeModel(R.drawable.sweet_bitter_gourd, "কাঁকরোল - sweet bitter gourd"));
+        list.add(new RecipeModel(R.drawable.water_lily, "শাপলা - water lily"));
+        list.add(new RecipeModel(R.drawable.sweet_potato, "মিষ্টি আলু - sweet potato"));
+        list.add(new RecipeModel(R.drawable.tomatoes, "টমেটো - tomatoes"));
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);

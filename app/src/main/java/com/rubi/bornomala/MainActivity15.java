@@ -58,16 +58,16 @@ public class MainActivity15 extends AppCompatActivity {
         ArrayList<RecipeModel> list = new ArrayList<>();
 
 
-        list.add(new RecipeModel(R.drawable.p_1, "প্রার্থনা\n-সুফিয়া কামাল"));
-        list.add(new RecipeModel(R.drawable.amar_pon, "আমার পণ\n-মদনমোহন তর্কালঙ্কার"));
-        list.add(new RecipeModel(R.drawable.pic_3, "শিশুর পণ\n-গোলাম মোস্তফা"));
-        list.add(new RecipeModel(R.drawable.mamar_bari, "মামার বাড়ি\n-জসীমউদ্দীন"));
-        list.add(new RecipeModel(R.drawable.gff, "চাঁদ উঠেছে\n -প্রচলিত"));
-        list.add(new RecipeModel(R.drawable.fd, "আয় রে আয় টিয়ে\n-প্রচলিত"));
-        list.add(new RecipeModel(R.drawable.ffff, "তোতা পাখি\n -প্রচলিত"));
-        list.add(new RecipeModel(R.drawable.hqdefault, "কাজলা দিদি\n-যতীন্দ্রমোহন বাগচী"));
-        list.add(new RecipeModel(R.drawable.tal, "কানা বগীর ছা\n–খান মুহম্মদ মঈনুদ্দীন"));
-        list.add(new RecipeModel(R.drawable.gol, "ছোটন ঘুমায়\n-সুফিয়া কামাল"));
+        list.add(new RecipeModel(R.drawable.alu, "আলু - Potato "));
+        list.add(new RecipeModel(R.drawable.carrots, "Carrots"));
+        list.add(new RecipeModel(R.drawable.cucumber, "Cucumber"));
+        list.add(new RecipeModel(R.drawable.brinjal, "Brinjal"));
+        list.add(new RecipeModel(R.drawable.ladiesfinger, "Ladies finger"));
+        list.add(new RecipeModel(R.drawable.peas, "Peas"));
+        list.add(new RecipeModel(R.drawable.radish, "Radish"));
+        list.add(new RecipeModel(R.drawable.turnip, "Turnip"));
+        list.add(new RecipeModel(R.drawable.bittergourd, "Bitter gourd"));
+        list.add(new RecipeModel(R.drawable.mushroom, "Mushroom"));
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);

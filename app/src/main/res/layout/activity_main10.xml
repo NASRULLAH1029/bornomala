@@ -23,13 +23,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/ritu" />
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -40,7 +33,6 @@
                         android:id="@+id/btn_1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -51,7 +43,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_1" />
@@ -73,7 +64,6 @@
                         android:id="@+id/btn_2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -83,7 +73,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_2" />
@@ -114,7 +103,6 @@
                         android:id="@+id/btn_3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -124,7 +112,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_3"/>
@@ -145,7 +132,6 @@
                         android:id="@+id/btn_4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -156,7 +142,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_4"/>
@@ -186,7 +171,6 @@
                         android:id="@+id/btn_5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -197,7 +181,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_5" />
@@ -218,7 +201,6 @@
                         android:id="@+id/btn_6"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -229,7 +211,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/gr_6"/>

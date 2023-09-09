@@ -39,6 +39,10 @@ public class MainActivity10 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main10);
 
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         setTitle("বাংলা ছয় ঋতুর নাম");
         facebookAds();
 

@@ -103,7 +103,6 @@
                         android:id="@+id/btn_3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -114,7 +113,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g3" />
@@ -135,7 +133,6 @@
                         android:id="@+id/btn_4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -145,7 +142,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g4" />
@@ -175,7 +171,6 @@
                         android:id="@+id/btn_5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -186,7 +181,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g5" />
@@ -207,7 +201,6 @@
                         android:id="@+id/btn_6"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -218,7 +211,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g6" />
@@ -249,7 +241,6 @@
                         android:id="@+id/btn_7"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -260,7 +251,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g7" />
@@ -281,7 +271,6 @@
                         android:id="@+id/btn_8"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -292,7 +281,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g8" />
@@ -323,7 +311,6 @@
                         android:id="@+id/btn_9"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -334,7 +321,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g9" />
@@ -355,7 +341,6 @@
                         android:id="@+id/btn_10"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -366,7 +351,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g10" />
@@ -396,7 +380,6 @@
                         android:id="@+id/btn_11"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -407,7 +390,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g11" />
@@ -428,7 +410,6 @@
                         android:id="@+id/btn_12"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_weight="10"
                         android:foreground="@drawable/effect"
                         android:gravity="center"
@@ -439,7 +420,6 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:layout_marginTop="10dp"
                             android:padding="5dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/g12" />

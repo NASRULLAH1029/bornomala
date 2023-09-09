@@ -2,7 +2,10 @@ package com.rubi.bornomala;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,8 +20,14 @@ import com.facebook.ads.AdView;
 import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
+import com.rubi.bornomala.Adapters.RecipeAdapter;
+import com.rubi.bornomala.Classes.RecyclerItemClickListener;
+import com.rubi.bornomala.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity15 extends AppCompatActivity {
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -34,6 +43,7 @@ public class MainActivity15 extends AppCompatActivity {
         super.onDestroy();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +52,32 @@ public class MainActivity15 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        setTitle("শাক সবজির নাম");
+
+        recyclerView = findViewById(R.id.recyclerView_2);
+
+        ArrayList<RecipeModel> list = new ArrayList<>();
+
+
+        list.add(new RecipeModel(R.drawable.p_1, "প্রার্থনা\n-সুফিয়া কামাল"));
+        list.add(new RecipeModel(R.drawable.amar_pon, "আমার পণ\n-মদনমোহন তর্কালঙ্কার"));
+        list.add(new RecipeModel(R.drawable.pic_3, "শিশুর পণ\n-গোলাম মোস্তফা"));
+        list.add(new RecipeModel(R.drawable.mamar_bari, "মামার বাড়ি\n-জসীমউদ্দীন"));
+        list.add(new RecipeModel(R.drawable.gff, "চাঁদ উঠেছে\n -প্রচলিত"));
+        list.add(new RecipeModel(R.drawable.fd, "আয় রে আয় টিয়ে\n-প্রচলিত"));
+        list.add(new RecipeModel(R.drawable.ffff, "তোতা পাখি\n -প্রচলিত"));
+        list.add(new RecipeModel(R.drawable.hqdefault, "কাজলা দিদি\n-যতীন্দ্রমোহন বাগচী"));
+        list.add(new RecipeModel(R.drawable.tal, "কানা বগীর ছা\n–খান মুহম্মদ মঈনুদ্দীন"));
+        list.add(new RecipeModel(R.drawable.gol, "ছোটন ঘুমায়\n-সুফিয়া কামাল"));
+
+
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+
         facebookAds();
 
     }
@@ -108,6 +143,4 @@ public class MainActivity15 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
-
-
 }

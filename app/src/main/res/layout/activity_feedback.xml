@@ -14,12 +14,34 @@
         android:orientation="vertical"
         android:visibility="visible">
 
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00C853">
+
+            <ImageView
+                android:id="@+id/back_developer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:gravity="center"
+                android:text="ডেভেলপার সস্পর্কে"
+                android:textColor="@color/sada"
+                android:textSize="20sp" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F9FCFD"
@@ -33,7 +55,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="30dp"
                     android:backgroundTint="#F6FDFD"
-                    android:outlineSpotShadowColor="#009688"
+                    android:outlineSpotShadowColor="#00C853"
                     app:cardCornerRadius="7dp"
                     app:cardElevation="5dp"
 
@@ -106,7 +128,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/kalpurush"
+                                    android:fontFamily="@font/regular"
                                     android:gravity="center"
                                     android:text="মোঃ নাসরুল্লাহ্ লিমন"
                                     android:textColor="#434141"
@@ -172,7 +194,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
-                                    android:text="mn.limon.239@gmail.com"
+                                    android:text="@string/nav_header_subtitle"
                                     android:textColor="#3E3D3D"
                                     android:textIsSelectable="true"
                                     android:textSize="18dp" />
@@ -195,7 +217,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="5dp"
-                                    android:text="Your Location Here"
+                                    android:text="Grameen Bank Road, Patharghata"
                                     android:textColor="#353434"
                                     android:textIsSelectable="true"
                                     android:textSize="18dp" />
@@ -255,7 +277,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:layout_alignParentBottom="true"
-                            android:background="#00BCD4" />
+                            android:background="#00C853" />
                     </RelativeLayout>
 
 

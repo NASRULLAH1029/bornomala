@@ -15,8 +15,9 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/feedback"
+        android:icon="@drawable/info"
         android:title="ফিড ব্যাগ"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/exit"
